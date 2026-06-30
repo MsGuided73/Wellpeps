@@ -1,14 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Playfair_Display, Inter } from "next/font/google";
 import "remixicon/fonts/remixicon.css";
 import "./globals.css";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -17,18 +10,21 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
-  title: "How Open Water RX Works | Online Intake & Provider Review",
+  title: "WellPeps — Modern Telehealth & Wellness Programs",
   description:
-    "Learn how Open Water RX works: choose a care path, complete an online intake, receive licensed provider review, and get treatment shipped discreetly if prescribed.",
-  icons: {
-    icon: "/images/how-it-works-00-icon-for-openwaterrx-com.ico",
-    apple: "/images/how-it-works-00-open-water-rx.png",
-  },
+    "WellPeps connects you with licensed providers for personalized weight management, peptide therapy, sexual wellness, and hair restoration — evaluated online and shipped discreetly if prescribed.",
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0B7A8C",
+  themeColor: "#082B59",
 };
 
 export default function RootLayout({
@@ -39,9 +35,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playfair.variable} h-full antialiased`}
+      className={`${playfair.variable} ${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full bg-[#F8F8F6] text-gray-900 font-sans">
+      <body className="min-h-full bg-[#F7F9FC] text-[#4B5C73] font-sans">
         {children}
       </body>
     </html>

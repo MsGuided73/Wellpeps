@@ -9,14 +9,14 @@ type FaqItem = {
 
 const FAQ_ITEMS: FaqItem[] = [
   {
-    question: "How does Open Water Rx work?",
+    question: "How does WellPeps work?",
     answer:
-      "Open Water Rx works in 6 steps: (1) Choose your care path. (2) Complete a 5-minute online health evaluation. (3) A licensed medical provider reviews your case. (4) If treatment is clinically appropriate, a personalized treatment plan or prescription is issued. (5) Medication or treatment ships to your door if prescribed — shipping is included in your plan price. (6) Ongoing async follow-up is included. Pricing is shown before checkout — semaglutide programs are $159/mo with code SEMASUMMER (reg. $249), tirzepatide programs are $219/mo with code SUMMER2026 (reg. $339), and other wellness programs may start lower depending on treatment type. No insurance required. Availability varies by state.",
+      "WellPeps works in 6 steps: (1) Choose your care path. (2) Complete a 5-minute online health evaluation. (3) A licensed medical provider reviews your case. (4) If treatment is clinically appropriate, a personalized treatment plan or prescription is issued. (5) Medication or treatment ships to your door if prescribed — shipping is included in your plan price. (6) Ongoing async follow-up is included. Pricing is shown before checkout — semaglutide programs are $159/mo with code SEMASUMMER (reg. $249), tirzepatide programs are $219/mo with code SUMMER2026 (reg. $339), and other wellness programs may start lower depending on treatment type. No insurance required. Availability varies by state.",
   },
   {
     question: "Do I need to visit a clinic to get a prescription?",
     answer:
-      "In most cases, no. Open Water Rx is fully telehealth for all programs. In most states, the clinician review is fully asynchronous — no webcam or live call required. A small number of states require a brief phone or video call before a prescription can be issued. If that applies to you, we will let you know after your intake.",
+      "In most cases, no. WellPeps is fully telehealth for all programs. In most states, the clinician review is fully asynchronous — no webcam or live call required. A small number of states require a brief phone or video call before a prescription can be issued. If that applies to you, we will let you know after your intake.",
   },
   {
     question: "How long does it take to get a prescription online?",
@@ -31,12 +31,12 @@ const FAQ_ITEMS: FaqItem[] = [
   {
     question: "Who reviews my health evaluation?",
     answer:
-      "A licensed medical provider, not an algorithm, reviews your full health evaluation. All prescribing decisions are made solely by your licensed medical provider based on your individual health profile. Open Water Rx does not direct or influence those decisions.",
+      "A licensed medical provider, not an algorithm, reviews your full health evaluation. All prescribing decisions are made solely by your licensed medical provider based on your individual health profile. WellPeps does not direct or influence those decisions.",
   },
   {
-    question: "What programs does Open Water Rx offer?",
+    question: "What programs does WellPeps offer?",
     answer:
-      "Open Water Rx offers clinician-guided programs in weight loss (including semaglutide and tirzepatide), energy & longevity (NAD+ and peptide therapies), men's health / sexual health (ED treatment), and wellness optimization. Each program is reviewed by an independent licensed medical provider who determines clinical appropriateness on an individual basis. Not all programs are available in every state.",
+      "WellPeps offers clinician-guided programs in weight loss (including semaglutide and tirzepatide), energy & longevity (NAD+ and peptide therapies), men's health / sexual health (ED treatment), and wellness optimization. Each program is reviewed by an independent licensed medical provider who determines clinical appropriateness on an individual basis. Not all programs are available in every state.",
   },
   {
     question: "What is the difference between semaglutide and tirzepatide?",
@@ -49,14 +49,14 @@ const FAQ_ITEMS: FaqItem[] = [
       "No. Compounded medications are not FDA-approved finished drug products. They are prepared by independent, licensed, FDA-registered compounding pharmacies and are prescribed only when a licensed medical provider determines there is an individual clinical need. Some programs may utilize FDA-approved medications where clinically appropriate.",
   },
   {
-    question: "Can I cancel my Open Water Rx subscription at any time?",
+    question: "Can I cancel my WellPeps subscription at any time?",
     answer:
       "Yes. There are no long-term commitments or cancellation fees. Cancel by emailing members@openwaterrx.com, calling (941) 315-5217 Mon–Fri 9 AM–5 PM ET, or through your patient portal. Once medication for that month has been ordered, that month's charge is not refundable.",
   },
   {
     question: "Does the same process apply to all programs?",
     answer:
-      "Yes. Every Open Water Rx program follows the same six-step telehealth process: choose your care path, complete an online health evaluation, licensed provider review, personalized care plan, discreet delivery, and ongoing follow-up. The intake questions, treatment options, and follow-up cadence are tailored to each program, but the overall experience is consistent across weight loss, energy & longevity, men's health, and wellness optimization.",
+      "Yes. Every WellPeps program follows the same six-step telehealth process: choose your care path, complete an online health evaluation, licensed provider review, personalized care plan, discreet delivery, and ongoing follow-up. The intake questions, treatment options, and follow-up cadence are tailored to each program, but the overall experience is consistent across weight loss, energy & longevity, men's health, and wellness optimization.",
   },
   {
     question: "Can I switch programs after signing up?",
@@ -64,24 +64,24 @@ const FAQ_ITEMS: FaqItem[] = [
       "If you are already enrolled in one program and would like to explore another, contact your provider through secure messaging or email members@openwaterrx.com. Your provider will review whether a different program is clinically appropriate for you and guide you through the next steps.",
   },
   {
-    question: "How much does Open Water Rx cost per month?",
+    question: "How much does WellPeps cost per month?",
     answer:
       "Pricing is shown before checkout. Semaglutide programs are $159/mo with code SEMASUMMER (reg. $249) and tirzepatide programs are $219/mo with code SUMMER2026 (reg. $339). Personalized dosing programs are $179/mo. NAD+ and peptide longevity programs are $149/mo. Men's health programs are $99. Wellness optimization programs may start lower depending on treatment type. Your actual cost depends on the specific program, formulation, and provider recommendation. All pricing is disclosed upfront before you pay.",
   },
   {
-    question: "What states does Open Water Rx serve?",
+    question: "What states does WellPeps serve?",
     answer:
-      "Open Water Rx serves patients across the United States. Availability varies by state, treatment pathway, provider availability, and state-specific requirements. Some states impose additional restrictions or disclosure requirements. Some states require a synchronous (live video) initial visit with your licensed medical provider before a prescription can be issued. Your provider will inform you of any state-specific requirements during the intake process. Shipping is available where permitted by law.",
+      "WellPeps serves patients across the United States. Availability varies by state, treatment pathway, provider availability, and state-specific requirements. Some states impose additional restrictions or disclosure requirements. Some states require a synchronous (live video) initial visit with your licensed medical provider before a prescription can be issued. Your provider will inform you of any state-specific requirements during the intake process. Shipping is available where permitted by law.",
   },
   {
-    question: "Can I use my HSA or FSA to pay for Open Water Rx?",
+    question: "Can I use my HSA or FSA to pay for WellPeps?",
     answer:
-      "Yes. In most cases, Open Water Rx services and medications qualify for Health Savings Account (HSA) or Flexible Spending Account (FSA) reimbursement because they are prescribed by a licensed medical provider for a diagnosed medical condition. We recommend checking with your HSA/FSA administrator for specific coverage details. We can provide itemized receipts and superbills for reimbursement upon request.",
+      "Yes. In most cases, WellPeps services and medications qualify for Health Savings Account (HSA) or Flexible Spending Account (FSA) reimbursement because they are prescribed by a licensed medical provider for a diagnosed medical condition. We recommend checking with your HSA/FSA administrator for specific coverage details. We can provide itemized receipts and superbills for reimbursement upon request.",
   },
   {
     question: "How do I know if telehealth is right for my goals?",
     answer:
-      "Telehealth care through Open Water Rx is ideal for adults who prefer convenience and want clinician-guided care without insurance battles, waiting rooms, or monthly clinic visits. For weight-loss programs, general eligibility includes a BMI of 27 or higher with a comorbidity, or a BMI of 30 or higher, without contraindicated conditions such as personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN2). Other programs have their own clinical criteria. An independent licensed provider will review your individual case to confirm suitability for any program.",
+      "Telehealth care through WellPeps is ideal for adults who prefer convenience and want clinician-guided care without insurance battles, waiting rooms, or monthly clinic visits. For weight-loss programs, general eligibility includes a BMI of 27 or higher with a comorbidity, or a BMI of 30 or higher, without contraindicated conditions such as personal or family history of medullary thyroid carcinoma (MTC) or Multiple Endocrine Neoplasia syndrome type 2 (MEN2). Other programs have their own clinical criteria. An independent licensed provider will review your individual case to confirm suitability for any program.",
   },
 ];
 
@@ -96,11 +96,11 @@ export function FaqSection() {
     <section className="py-20 px-6 md:px-10 bg-white border-t border-gray-100 cv-auto">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
-          <p className="text-[#E8A923] text-xs font-semibold uppercase tracking-widest mb-3">
+          <p className="text-[#1565C0] text-xs font-semibold uppercase tracking-widest mb-3">
             FAQ
           </p>
           <h2
-            className="text-3xl md:text-4xl font-bold text-[#0B7A8C] mb-4"
+            className="text-3xl md:text-4xl font-bold text-[#1565C0] mb-4"
             style={{ fontFamily: '"Playfair Display", serif' }}
           >
             Common Questions About the Process
@@ -115,7 +115,7 @@ export function FaqSection() {
             return (
               <div
                 key={index}
-                className="bg-[#F8F8F6] rounded-xl border border-gray-100 overflow-hidden"
+                className="bg-[#F7F9FC] rounded-xl border border-gray-100 overflow-hidden"
               >
                 <button
                   id={`faq-hiw-trigger-${index}`}
@@ -129,7 +129,7 @@ export function FaqSection() {
                   </span>
                   <div className="w-6 h-6 flex items-center justify-center flex-shrink-0">
                     <i
-                      className={`text-[#E8A923] text-lg transition-transform duration-200 ri-add-line ${
+                      className={`text-[#1565C0] text-lg transition-transform duration-200 ri-add-line ${
                         isOpen ? "rotate-45" : ""
                       }`}
                       aria-hidden="true"
@@ -154,7 +154,7 @@ export function FaqSection() {
         </div>
         <div className="mt-8 text-center">
           <a
-            className="inline-flex items-center gap-2 bg-[#E8F5F7] text-[#0B7A8C] text-sm font-semibold px-6 py-3 rounded-xl hover:bg-[#d4eef2] transition-colors cursor-pointer"
+            className="inline-flex items-center gap-2 bg-[#EAF5FF] text-[#1565C0] text-sm font-semibold px-6 py-3 rounded-xl hover:bg-[#EAF5FF] transition-colors cursor-pointer"
             href="/faq"
           >
             <i className="ri-question-answer-line text-base"></i>See all patient FAQs →

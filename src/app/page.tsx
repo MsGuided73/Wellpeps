@@ -17,7 +17,7 @@ import { Reveal } from "@/components/Reveal";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#F8F8F6]">
+    <div className="min-h-screen bg-[#F7F9FC]">
       {/* Fixed top chrome: announcement + header + breadcrumb */}
       <div className="fixed top-0 inset-x-0 z-[70]">
         <AnnouncementBar />

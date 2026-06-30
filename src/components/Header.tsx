@@ -20,43 +20,40 @@ export function Header() {
       ></div>
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 flex items-center h-20">
         <a
-          className="flex items-center gap-3 flex-shrink-0 relative z-10 active:opacity-80 transition-opacity"
+          className="flex items-center gap-2.5 flex-shrink-0 relative z-10 active:opacity-80 transition-opacity"
           href="/"
         >
-          <img
-            alt="Open Water Rx"
-            width={110}
-            height={29}
-            loading="eager"
-            fetchPriority="high"
-            decoding="async"
-            className="object-contain flex-shrink-0"
-            src="/images/how-it-works-00-open-water-rx.png"
-            style={{
-              width: "110px",
-              height: "29px",
-              maxWidth: "110px",
-              maxHeight: "29px",
-              objectFit: "contain",
-            }}
-          />
           <span
-            className="hidden md:block font-bold text-lg tracking-tight transition-colors duration-200 whitespace-nowrap text-[#0B7A8C]"
+            className="flex items-center justify-center w-9 h-9 rounded-lg bg-[#082B59] text-white text-lg font-extrabold flex-shrink-0 shadow-sm"
+            style={{ fontFamily: '"Playfair Display", serif' }}
+            aria-hidden="true"
+          >
+            W
+          </span>
+          <span
+            className="font-extrabold text-2xl tracking-tight transition-colors duration-200 whitespace-nowrap text-[#082B59]"
             style={{ fontFamily: '"Playfair Display", serif' }}
           >
-            Open Water Rx
+            Well<span className="text-[#1565C0]">Peps</span>
           </span>
         </a>
         <a
-          className="md:hidden absolute inset-0 z-0 flex items-center justify-center cursor-pointer active:opacity-80 transition-opacity"
+          className="md:hidden absolute inset-0 z-0 flex items-center justify-center gap-2 cursor-pointer active:opacity-80 transition-opacity"
           aria-label="Go to homepage"
           href="/"
         >
           <span
-            className="font-bold text-lg tracking-tight transition-colors duration-200 whitespace-nowrap text-[#0B7A8C]"
+            className="flex items-center justify-center w-8 h-8 rounded-lg bg-[#082B59] text-white text-base font-extrabold flex-shrink-0"
+            style={{ fontFamily: '"Playfair Display", serif' }}
+            aria-hidden="true"
+          >
+            W
+          </span>
+          <span
+            className="font-extrabold text-2xl tracking-tight transition-colors duration-200 whitespace-nowrap text-[#082B59]"
             style={{ fontFamily: '"Playfair Display", serif' }}
           >
-            Open Water Rx
+            Well<span className="text-[#1565C0]">Peps</span>
           </span>
         </a>
         <div className="flex-1"></div>
@@ -65,37 +62,37 @@ export function Header() {
           aria-label="Main navigation"
         >
           <a
-            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#0B7A8C]"
+            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#1565C0]"
             href="/"
           >
             Home
           </a>
           <a
-            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-[#0B7A8C]"
+            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-[#1565C0]"
             href="/how-it-works"
           >
             How It Works
           </a>
           <a
-            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#0B7A8C]"
+            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#1565C0]"
             href="/programs"
           >
             Programs
           </a>
           <a
-            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#0B7A8C]"
+            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#1565C0]"
             href="/faq"
           >
             FAQ
           </a>
           <a
-            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#0B7A8C]"
+            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#1565C0]"
             href="/about"
           >
             About
           </a>
           <a
-            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#0B7A8C]"
+            className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#1565C0]"
             href="/contact"
           >
             Contact
@@ -111,7 +108,7 @@ export function Header() {
             target="_blank"
             rel="noopener noreferrer"
             data-clarity-tag="header-patient-portal"
-            className="flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold whitespace-nowrap cursor-pointer transition-all duration-200 active:scale-[0.98] bg-[#0B7A8C] text-white hover:bg-[#096878]"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold whitespace-nowrap cursor-pointer transition-all duration-200 active:scale-[0.98] bg-[#1565C0] text-white hover:bg-[#082B59]"
           >
             <i className="ri-user-line text-sm"></i>Patient Portal
           </a>
@@ -143,7 +140,7 @@ export function Header() {
             Home
           </a>
           <a
-            className="text-sm font-medium w-full min-h-[48px] flex items-center py-3 transition-colors active:bg-gray-50 touch-manipulation cursor-pointer text-[#0B7A8C] border-b border-gray-100"
+            className="text-sm font-medium w-full min-h-[48px] flex items-center py-3 transition-colors active:bg-gray-50 touch-manipulation cursor-pointer text-[#1565C0] border-b border-gray-100"
             href="/how-it-works"
           >
             How It Works
@@ -184,7 +181,7 @@ export function Header() {
             </a>
             <a
               data-clarity-tag="header-mobile-start"
-              className="w-full min-h-[48px] flex items-center justify-center gap-2 bg-[#E8A923] text-white font-semibold py-3 rounded-full text-sm whitespace-nowrap cursor-pointer active:scale-[0.98] transition-transform touch-manipulation"
+              className="w-full min-h-[48px] flex items-center justify-center gap-2 bg-[#1565C0] text-white font-semibold py-3 rounded-full text-sm whitespace-nowrap cursor-pointer active:scale-[0.98] transition-transform touch-manipulation"
               href="/programs"
             >
               <i className="ri-file-list-3-line text-sm" aria-hidden="true"></i>
@@ -192,7 +189,7 @@ export function Header() {
             </a>
             <a
               data-clarity-tag="header-mobile-eligibility"
-              className="w-full min-h-[48px] flex items-center justify-center gap-2 border border-[#0B7A8C] text-[#0B7A8C] font-semibold py-3 rounded-full text-sm whitespace-nowrap cursor-pointer active:scale-[0.98] transition-transform touch-manipulation"
+              className="w-full min-h-[48px] flex items-center justify-center gap-2 border border-[#1565C0] text-[#1565C0] font-semibold py-3 rounded-full text-sm whitespace-nowrap cursor-pointer active:scale-[0.98] transition-transform touch-manipulation"
               href="/eligibility"
             >
               <i className="ri-checkbox-circle-line text-sm" aria-hidden="true"></i>

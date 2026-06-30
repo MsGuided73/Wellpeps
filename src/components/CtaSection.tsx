@@ -1,10 +1,10 @@
 export function CtaSection() {
   return (
-    <section className="bg-[#0B7A8C] py-20 px-6 md:px-10">
+    <section className="bg-[#1565C0] py-20 px-6 md:px-10">
       <div className="max-w-2xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 bg-[#E8A923]/20 border border-[#E8A923]/40 rounded-full px-4 py-1.5 mb-5">
-          <span className="w-2 h-2 rounded-full bg-[#E8A923] "></span>
-          <span className="text-[#E8A923] text-xs font-semibold">Clinician-Guided Programs</span>
+        <div className="inline-flex items-center gap-2 bg-[#1565C0]/20 border border-[#1565C0]/40 rounded-full px-4 py-1.5 mb-5">
+          <span className="w-2 h-2 rounded-full bg-[#1565C0] "></span>
+          <span className="text-[#1565C0] text-xs font-semibold">Clinician-Guided Programs</span>
         </div>
         <h2
           className="text-3xl md:text-4xl font-bold text-white mb-4"
@@ -12,13 +12,13 @@ export function CtaSection() {
         >
           Ready to Get Started?
         </h2>
-        <p className="text-teal-200 text-base mb-3 leading-relaxed">
+        <p className="text-blue-100 text-base mb-3 leading-relaxed">
           Complete your intake and an independent licensed provider reviews your case. Whether you are exploring weight loss, energy &amp; longevity, men&apos;s health, or longevity care, treatment is recommended only when clinically appropriate. No insurance required. Discreet. Delivered to your door.
         </p>
-        <p className="text-teal-300 text-sm mb-8">Free to start. No commitment.</p>
+        <p className="text-blue-200 text-sm mb-8">Free to start. No commitment.</p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            className="bg-[#E8A923] text-white font-semibold px-10 py-4 rounded-full text-base whitespace-nowrap hover:bg-[#d49820] transition-all duration-200 cursor-pointer hover:-translate-y-0.5"
+            className="bg-[#1565C0] text-white font-semibold px-10 py-4 rounded-full text-base whitespace-nowrap hover:bg-[#0F56AF] transition-all duration-200 cursor-pointer hover:-translate-y-0.5"
             href="/intake"
           >
             Start Your Intake
@@ -30,28 +30,28 @@ export function CtaSection() {
             Find My Program
           </a>
         </div>
-        <p className="text-teal-300/50 text-xs mt-5 max-w-md mx-auto leading-relaxed">
+        <p className="text-blue-200/50 text-xs mt-5 max-w-md mx-auto leading-relaxed">
           Availability and care process may vary by state. Some states require a live video consultation before treatment.
         </p>
         <div className="mt-6">
           <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3">
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-white/20 text-white/90 bg-white/10">
-              <i className="ri-stethoscope-line text-[#E8A923]"></i>Licensed Medical Providers
+              <i className="ri-stethoscope-line text-[#1565C0]"></i>Licensed Medical Providers
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-white/20 text-white/90 bg-white/10">
-              <i className="ri-capsule-line text-[#E8A923]"></i>Licensed Compounding Pharmacy
+              <i className="ri-capsule-line text-[#1565C0]"></i>Licensed Compounding Pharmacy
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-white/20 text-white/90 bg-white/10">
-              <i className="ri-shield-check-line text-[#E8A923]"></i>Privacy Protected
+              <i className="ri-shield-check-line text-[#1565C0]"></i>Privacy Protected
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-white/20 text-white/90 bg-white/10">
-              <i className="ri-truck-line text-[#E8A923]"></i>Shipping Included If Prescribed
+              <i className="ri-truck-line text-[#1565C0]"></i>Shipping Included If Prescribed
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-white/20 text-white/90 bg-white/10">
-              <i className="ri-lock-2-line text-[#E8A923]"></i>Secure &amp; Private
+              <i className="ri-lock-2-line text-[#1565C0]"></i>Secure &amp; Private
             </div>
             <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border border-white/20 text-white/90 bg-white/10">
-              <i className="ri-hospital-line text-[#E8A923]"></i>No Insurance Needed
+              <i className="ri-hospital-line text-[#1565C0]"></i>No Insurance Needed
             </div>
           </div>
         </div>

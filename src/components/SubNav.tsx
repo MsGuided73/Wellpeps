@@ -7,7 +7,7 @@ export function SubNav() {
       <ol className="max-w-5xl mx-auto flex items-center gap-1.5 text-xs text-gray-500 flex-wrap">
         <li className="flex items-center gap-1.5">
           <a
-            className="hover:text-[#0B7A8C] active:opacity-70 transition-colors cursor-pointer whitespace-nowrap"
+            className="hover:text-[#1565C0] active:opacity-70 transition-colors cursor-pointer whitespace-nowrap"
             href="/"
           >
             Home

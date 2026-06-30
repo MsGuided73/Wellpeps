@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="bg-[#0B7A8C] text-white">
+    <footer className="bg-[#082B59] text-white">
       <div className="max-w-7xl mx-auto px-5 sm:px-8 md:px-10 pt-14 md:pt-16 pb-8">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 md:gap-10 mb-10 md:mb-12">
           <div className="col-span-1 lg:col-span-2">
@@ -13,9 +13,9 @@ export function Footer() {
                 color: "white",
               }}
             >
-              Open Water Rx
+              WellPeps
             </span>
-            <p className="text-sm text-teal-200 leading-relaxed max-w-sm">
+            <p className="text-sm text-blue-100 leading-relaxed max-w-sm">
               Online prescription care. Licensed providers. Transparent pricing.
               Telehealth for weight loss, men&apos;s health, energy, and
               performance. Reviewed by licensed providers, delivered to your
@@ -24,24 +24,24 @@ export function Footer() {
             <address className="not-italic mt-5 flex flex-col gap-2">
               <a
                 href="tel:+19413155217"
-                className="inline-flex items-center gap-2 text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                className="inline-flex items-center gap-2 text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
               >
-                <i className="ri-phone-line text-[#E8A923]"></i> (941) 315-5217
+                <i className="ri-phone-line text-[#1565C0]"></i> (941) 315-5217
               </a>
               <a
                 href="mailto:members@openwaterrx.com"
-                className="inline-flex items-center gap-2 text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                className="inline-flex items-center gap-2 text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
               >
-                <i className="ri-mail-line text-[#E8A923]"></i>{" "}
+                <i className="ri-mail-line text-[#1565C0]"></i>{" "}
                 members@openwaterrx.com
               </a>
-              <span className="inline-flex items-center gap-2 text-sm text-teal-200">
-                <i className="ri-map-pin-line text-[#E8A923]"></i> Tampa, FL
+              <span className="inline-flex items-center gap-2 text-sm text-blue-100">
+                <i className="ri-map-pin-line text-[#1565C0]"></i> Tampa, FL
               </span>
             </address>
             <div className="mt-5 bg-white/10 border border-white/15 rounded-xl px-4 py-3 max-w-sm">
-              <p className="text-xs text-teal-200 leading-relaxed">
-                <i className="ri-stethoscope-line text-[#E8A923] mr-1"></i>
+              <p className="text-xs text-blue-100 leading-relaxed">
+                <i className="ri-stethoscope-line text-[#1565C0] mr-1"></i>
                 <strong className="text-white">Medically Reviewed</strong> by
                 licensed medical providers. All clinical content is reviewed for
                 accuracy.
@@ -133,7 +133,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/"
                 >
                   Home
@@ -141,7 +141,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/how-it-works"
                 >
                   How It Works
@@ -149,7 +149,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/eligibility"
                 >
                   Is This Right For Me?
@@ -157,7 +157,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/faq"
                 >
                   FAQ
@@ -165,7 +165,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/medical-glossary"
                 >
                   Medical Glossary
@@ -173,7 +173,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/resources"
                 >
                   Patient Resources
@@ -181,7 +181,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/pricing"
                 >
                   Pricing
@@ -189,7 +189,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/about"
                 >
                   About Us
@@ -197,7 +197,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/contact"
                 >
                   Contact
@@ -212,7 +212,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/weight-loss"
                 >
                   Weight Loss
@@ -220,7 +220,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/energy-longevity"
                 >
                   Energy &amp; Longevity
@@ -228,7 +228,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/sexual-health"
                 >
                   Sexual Health
@@ -236,7 +236,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/weight-loss"
                 >
                   Semaglutide
@@ -244,7 +244,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/weight-loss"
                 >
                   Tirzepatide
@@ -252,7 +252,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/semaglutide-vs-tirzepatide"
                 >
                   Compare Programs
@@ -260,7 +260,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/nad-peptide-therapy"
                 >
                   NAD+ Peptide Therapy
@@ -268,7 +268,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/programs"
                 >
                   Programs Hub
@@ -276,7 +276,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/pricing"
                 >
                   Pricing
@@ -293,7 +293,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="FDA Drug Shortage Database (opens in new tab)"
-                  className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors leading-snug block active:opacity-80"
+                  className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors leading-snug block active:opacity-80"
                 >
                   FDA Drug Shortage Database{" "}
                   <i className="ri-external-link-line text-[10px]"></i>
@@ -305,7 +305,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="STEP 1 Trial (NEJM) (opens in new tab)"
-                  className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors leading-snug block active:opacity-80"
+                  className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors leading-snug block active:opacity-80"
                 >
                   STEP 1 Trial (NEJM){" "}
                   <i className="ri-external-link-line text-[10px]"></i>
@@ -317,7 +317,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="SURMOUNT-1 Trial (NEJM) (opens in new tab)"
-                  className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors leading-snug block active:opacity-80"
+                  className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors leading-snug block active:opacity-80"
                 >
                   SURMOUNT-1 Trial (NEJM){" "}
                   <i className="ri-external-link-line text-[10px]"></i>
@@ -329,7 +329,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="FDA on Compounding (opens in new tab)"
-                  className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors leading-snug block active:opacity-80"
+                  className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors leading-snug block active:opacity-80"
                 >
                   FDA on Compounding{" "}
                   <i className="ri-external-link-line text-[10px]"></i>
@@ -344,7 +344,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/privacy-policy"
                 >
                   Privacy Policy
@@ -352,7 +352,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/terms-of-service"
                 >
                   Terms of Service
@@ -360,7 +360,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/terms-and-conditions"
                 >
                   Terms &amp; Conditions
@@ -368,7 +368,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/cancellation-policy"
                 >
                   Cancellation &amp; Refund Policy
@@ -376,7 +376,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/hipaa-notice"
                 >
                   HIPAA Notice
@@ -384,7 +384,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/telehealth-consent"
                 >
                   Telehealth Consent
@@ -392,7 +392,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  className="text-sm text-teal-200 hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm text-blue-100 hover:text-[#1565C0] transition-colors active:opacity-80"
                   href="/accessibility"
                 >
                   Accessibility Statement
@@ -405,184 +405,184 @@ export function Footer() {
           <div className="flex flex-col sm:flex-row sm:items-center gap-4">
             <div className="flex-1">
               <h4 className="text-sm font-semibold uppercase tracking-widest mb-2 text-white flex items-center gap-2">
-                <i className="ri-map-2-line text-[#E8A923] text-base"></i>Areas
+                <i className="ri-map-2-line text-[#1565C0] text-base"></i>Areas
                 We Serve
               </h4>
-              <p className="text-xs text-teal-200 leading-relaxed mb-3">
+              <p className="text-xs text-blue-100 leading-relaxed mb-3">
                 Telehealth care is available where permitted. Availability varies
                 by state, treatment type, provider review, and pharmacy access.
               </p>
               <div className="flex flex-wrap gap-2">
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/alabama"
                 >
                   Alabama
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/arizona"
                 >
                   Arizona
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/california"
                 >
                   California
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/colorado"
                 >
                   Colorado
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/connecticut"
                 >
                   Connecticut
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/florida"
                 >
                   Florida
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/georgia"
                 >
                   Georgia
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/illinois"
                 >
                   Illinois
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/indiana"
                 >
                   Indiana
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/maryland"
                 >
                   Maryland
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/massachusetts"
                 >
                   Massachusetts
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/michigan"
                 >
                   Michigan
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/minnesota"
                 >
                   Minnesota
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/missouri"
                 >
                   Missouri
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/nevada"
                 >
                   Nevada
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/new-jersey"
                 >
                   New Jersey
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/new-york"
                 >
                   New York
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/north-carolina"
                 >
                   North Carolina
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/ohio"
                 >
                   Ohio
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/oregon"
                 >
                   Oregon
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/pennsylvania"
                 >
                   Pennsylvania
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/south-carolina"
                 >
                   South Carolina
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/tennessee"
                 >
                   Tennessee
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/texas"
                 >
                   Texas
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/utah"
                 >
                   Utah
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/virginia"
                 >
                   Virginia
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/washington"
                 >
                   Washington
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-white/10 text-teal-200 hover:text-[#E8A923] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-white/10 text-blue-100 hover:text-[#1565C0] hover:bg-white/15 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/locations/wisconsin"
                 >
                   Wisconsin
                 </a>
                 <a
-                  className="text-[11px] font-semibold bg-[#E8A923]/20 text-[#E8A923] hover:bg-[#E8A923]/30 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
+                  className="text-[11px] font-semibold bg-[#1565C0]/20 text-[#1565C0] hover:bg-[#1565C0]/30 px-2.5 py-2.5 rounded-full transition-colors cursor-pointer whitespace-nowrap active:scale-[0.98] transition-transform"
                   href="/glp1-weight-loss-nationwide"
                 >
                   View all states →
@@ -594,69 +594,69 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-8">
           <div className="bg-white/5 border border-white/10 rounded-xl px-6 py-5">
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 text-white flex items-center gap-2">
-              <i className="ri-hospital-line text-[#E8A923] text-base"></i>
+              <i className="ri-hospital-line text-[#1565C0] text-base"></i>
               Pharmacy &amp; Clinical Network
             </h4>
-            <p className="text-xs text-teal-200 leading-relaxed mb-3">
+            <p className="text-xs text-blue-100 leading-relaxed mb-3">
               Medications are dispensed by licensed U.S. pharmacies, including:
             </p>
             <ul className="space-y-1.5 mb-3">
-              <li className="flex items-center gap-2 text-xs text-teal-300">
+              <li className="flex items-center gap-2 text-xs text-blue-200">
                 <div className="w-3.5 h-3.5 flex items-center justify-center flex-shrink-0">
-                  <i className="ri-check-line text-[#E8A923] text-[10px]"></i>
+                  <i className="ri-check-line text-[#1565C0] text-[10px]"></i>
                 </div>
                 RedRock Pharmacy (Utah)
               </li>
-              <li className="flex items-center gap-2 text-xs text-teal-300">
+              <li className="flex items-center gap-2 text-xs text-blue-200">
                 <div className="w-3.5 h-3.5 flex items-center justify-center flex-shrink-0">
-                  <i className="ri-check-line text-[#E8A923] text-[10px]"></i>
+                  <i className="ri-check-line text-[#1565C0] text-[10px]"></i>
                 </div>
                 HealthWarehouse (Kentucky)
               </li>
-              <li className="flex items-center gap-2 text-xs text-teal-300">
+              <li className="flex items-center gap-2 text-xs text-blue-200">
                 <div className="w-3.5 h-3.5 flex items-center justify-center flex-shrink-0">
-                  <i className="ri-check-line text-[#E8A923] text-[10px]"></i>
+                  <i className="ri-check-line text-[#1565C0] text-[10px]"></i>
                 </div>
                 Precision Compounding Pharmacy (New York)
               </li>
-              <li className="flex items-center gap-2 text-xs text-teal-300">
+              <li className="flex items-center gap-2 text-xs text-blue-200">
                 <div className="w-3.5 h-3.5 flex items-center justify-center flex-shrink-0">
-                  <i className="ri-check-line text-[#E8A923] text-[10px]"></i>
+                  <i className="ri-check-line text-[#1565C0] text-[10px]"></i>
                 </div>
                 Triad Rx (Texas)
               </li>
             </ul>
-            <p className="text-[11px] text-teal-400 leading-relaxed">
+            <p className="text-[11px] text-blue-300 leading-relaxed">
               Pharmacy partners may vary based on medication and patient
               location.
             </p>
           </div>
           <div className="bg-white/5 border border-white/10 rounded-xl px-6 py-5">
             <h4 className="text-sm font-semibold uppercase tracking-widest mb-4 text-white flex items-center gap-2">
-              <i className="ri-map-2-line text-[#E8A923] text-base"></i>
+              <i className="ri-map-2-line text-[#1565C0] text-base"></i>
               Availability
             </h4>
-            <p className="text-xs text-teal-200 leading-relaxed mb-3">
-              Open Water Rx facilitates care across the United States.
+            <p className="text-xs text-blue-100 leading-relaxed mb-3">
+              WellPeps facilitates care across the United States.
               Availability varies by state, treatment pathway, provider
               availability, and clinical review.
             </p>
-            <p className="text-[11px] text-teal-400 leading-relaxed">
+            <p className="text-[11px] text-blue-300 leading-relaxed">
               Some states impose additional restrictions or disclosure
               requirements. Treatment options may not be available in every
               state or may require additional steps.
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
-              <span className="text-[10px] font-semibold bg-white/10 text-teal-200 px-2.5 py-1 rounded-full">
+              <span className="text-[10px] font-semibold bg-white/10 text-blue-100 px-2.5 py-1 rounded-full">
                 U.S. Telehealth
               </span>
-              <span className="text-[10px] font-semibold bg-white/10 text-teal-200 px-2.5 py-1 rounded-full">
+              <span className="text-[10px] font-semibold bg-white/10 text-blue-100 px-2.5 py-1 rounded-full">
                 Availability Varies by State
               </span>
-              <span className="text-[10px] font-semibold bg-white/10 text-teal-200 px-2.5 py-1 rounded-full">
+              <span className="text-[10px] font-semibold bg-white/10 text-blue-100 px-2.5 py-1 rounded-full">
                 100% Telehealth
               </span>
-              <span className="text-[10px] font-semibold bg-white/10 text-teal-200 px-2.5 py-1 rounded-full">
+              <span className="text-[10px] font-semibold bg-white/10 text-blue-100 px-2.5 py-1 rounded-full">
                 No In-Person Visit (Most Cases)
               </span>
             </div>
@@ -665,43 +665,43 @@ export function Footer() {
         <div className="border-t border-white/10 pt-8 space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 bg-white/5 border border-white/10 rounded-xl px-6 py-5">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#E8A923]/20 flex-shrink-0">
-                <i className="ri-phone-line text-[#E8A923] text-sm"></i>
+              <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#1565C0]/20 flex-shrink-0">
+                <i className="ri-phone-line text-[#1565C0] text-sm"></i>
               </div>
               <div>
-                <p className="text-[10px] text-teal-400 uppercase tracking-widest font-semibold">
+                <p className="text-[10px] text-blue-300 uppercase tracking-widest font-semibold">
                   Phone
                 </p>
                 <a
                   href="tel:+19413155217"
-                  className="text-sm font-semibold text-white hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm font-semibold text-white hover:text-[#1565C0] transition-colors active:opacity-80"
                 >
                   (941) 315-5217
                 </a>
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#E8A923]/20 flex-shrink-0">
-                <i className="ri-mail-line text-[#E8A923] text-sm"></i>
+              <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#1565C0]/20 flex-shrink-0">
+                <i className="ri-mail-line text-[#1565C0] text-sm"></i>
               </div>
               <div>
-                <p className="text-[10px] text-teal-400 uppercase tracking-widest font-semibold">
+                <p className="text-[10px] text-blue-300 uppercase tracking-widest font-semibold">
                   Email
                 </p>
                 <a
                   href="mailto:members@openwaterrx.com"
-                  className="text-sm font-semibold text-white hover:text-[#E8A923] transition-colors active:opacity-80"
+                  className="text-sm font-semibold text-white hover:text-[#1565C0] transition-colors active:opacity-80"
                 >
                   members@openwaterrx.com
                 </a>
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#E8A923]/20 flex-shrink-0">
-                <i className="ri-map-pin-line text-[#E8A923] text-sm"></i>
+              <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-[#1565C0]/20 flex-shrink-0">
+                <i className="ri-map-pin-line text-[#1565C0] text-sm"></i>
               </div>
               <div>
-                <p className="text-[10px] text-teal-400 uppercase tracking-widest font-semibold">
+                <p className="text-[10px] text-blue-300 uppercase tracking-widest font-semibold">
                   Address
                 </p>
                 <p className="text-sm font-semibold text-white">
@@ -712,43 +712,43 @@ export function Footer() {
           </div>
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 py-1">
             <a
-              className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors font-medium whitespace-nowrap active:opacity-80"
+              className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors font-medium whitespace-nowrap active:opacity-80"
               href="/privacy-policy"
             >
               Privacy Policy
             </a>
             <a
-              className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors font-medium whitespace-nowrap active:opacity-80"
+              className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors font-medium whitespace-nowrap active:opacity-80"
               href="/terms-of-service"
             >
               Terms of Service
             </a>
             <a
-              className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors font-medium whitespace-nowrap active:opacity-80"
+              className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors font-medium whitespace-nowrap active:opacity-80"
               href="/terms-and-conditions"
             >
               Terms &amp; Conditions
             </a>
             <a
-              className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors font-medium whitespace-nowrap active:opacity-80"
+              className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors font-medium whitespace-nowrap active:opacity-80"
               href="/cancellation-policy"
             >
               Cancellation &amp; Refund Policy
             </a>
             <a
-              className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors font-medium whitespace-nowrap active:opacity-80"
+              className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors font-medium whitespace-nowrap active:opacity-80"
               href="/hipaa-notice"
             >
               HIPAA Notice
             </a>
             <a
-              className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors font-medium whitespace-nowrap active:opacity-80"
+              className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors font-medium whitespace-nowrap active:opacity-80"
               href="/telehealth-consent"
             >
               Telehealth Consent
             </a>
             <a
-              className="text-xs text-teal-300 hover:text-[#E8A923] transition-colors font-medium whitespace-nowrap active:opacity-80"
+              className="text-xs text-blue-200 hover:text-[#1565C0] transition-colors font-medium whitespace-nowrap active:opacity-80"
               href="/contact"
             >
               Contact
@@ -761,21 +761,21 @@ export function Footer() {
                 They are not reviewed by the FDA for safety, effectiveness, or
                 quality in the same manner as commercially manufactured drugs.
                 Medications are prescribed only when a patient has a specific
-                medical need. Open Water Rx does not provide medical advice.
+                medical need. WellPeps does not provide medical advice.
                 Individual results vary and are not guaranteed. © 2026 Open Water
                 Rx LLC.
               </p>
             </div>
             <button
               aria-expanded="false"
-              className="w-full flex items-center justify-center gap-1.5 py-3 border-t border-white/10 text-[11px] text-teal-400 hover:text-[#E8A923] transition-colors cursor-pointer bg-white/[0.03] hover:bg-white/[0.06] active:bg-white/[0.08]"
+              className="w-full flex items-center justify-center gap-1.5 py-3 border-t border-white/10 text-[11px] text-blue-300 hover:text-[#1565C0] transition-colors cursor-pointer bg-white/[0.03] hover:bg-white/[0.06] active:bg-white/[0.08]"
             >
               <i className="ri-arrow-down-s-line text-sm"></i>View full legal
               disclosures
             </button>
           </div>
-          <p className="text-xs text-teal-400 text-center pt-1">
-            © 2026 Open Water Rx LLC. All rights reserved. Tampa, FL | Telehealth
+          <p className="text-xs text-blue-300 text-center pt-1">
+            © 2026 WellPeps LLC. All rights reserved. Tampa, FL | Telehealth
             Prescription Care. Availability varies by state.
           </p>
         </div>

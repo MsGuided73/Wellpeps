@@ -11,22 +11,22 @@ export function AnnouncementBar() {
 
   return (
     <div className="relative z-[70]">
-      <div className="relative z-[80] bg-gradient-to-r from-[#E8A923] via-[#f0c050] to-[#E8A923]">
+      <div className="relative z-[80] bg-gradient-to-r from-[#1565C0] via-[#2EA8F7] to-[#1565C0]">
         <div
           className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 flex items-center justify-center gap-3 py-2.5 sm:py-2"
           style={{ marginTop: "0px" }}
         >
           <a
-            className="flex items-center gap-2 text-[#3D2B2B] text-xs sm:text-sm font-semibold hover:underline cursor-pointer whitespace-nowrap"
+            className="flex items-center gap-2 text-white text-xs sm:text-sm font-semibold hover:underline cursor-pointer whitespace-nowrap"
             href="/start-your-program"
           >
-            <i className="ri-sun-line text-sm sm:text-base flex-shrink-0"></i>
+            <i className="ri-shield-check-line text-sm sm:text-base flex-shrink-0"></i>
             <span className="hidden sm:inline">
-              Summer Sale — Save $90/mo on semaglutide with code{" "}
-              <strong className="font-black">SEMASUMMER</strong>
+              Personalized wellness, guided by licensed providers —{" "}
+              <strong className="font-black">start your free evaluation</strong>
             </span>
             <span className="sm:hidden">
-              <strong>SEMASUMMER</strong> — $159/mo semaglutide
+              <strong>Start your free evaluation</strong>
             </span>
             <i className="ri-arrow-right-line text-xs"></i>
           </a>
