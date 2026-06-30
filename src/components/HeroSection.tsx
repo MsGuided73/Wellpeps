@@ -1,31 +1,76 @@
 export function HeroSection() {
   return (
-    <section className="relative pt-0 pb-0 px-6 md:px-10 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-[#082B59] via-[#0F56AF] to-[#1565C0]"></div>
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 18% 22%, rgba(46,168,247,0.40), transparent 55%), radial-gradient(circle at 85% 80%, rgba(8,43,89,0.55), transparent 50%)",
-        }}
-      ></div>
-      <div className="relative z-10 max-w-4xl mx-auto text-center px-5 md:px-0 pt-28 md:pt-32 pb-16 md:pb-20">
-        <p className="text-[#D8A53A] text-xs font-semibold uppercase tracking-widest mb-4">The Process</p>
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ fontFamily: '"Playfair Display", serif' }}>How WellPeps Works</h1>
-        <p className="text-blue-100 text-base max-w-2xl mx-auto leading-relaxed">Choose your goal, complete a secure online intake, and get reviewed by a licensed provider. Treatment is prescribed only when clinically appropriate and ships discreetly if prescribed.</p>
-        <div className="mt-6 max-w-2xl mx-auto border-t border-white/10 pt-5 space-y-2">
-          <p className="text-white/90 text-sm font-semibold leading-relaxed">WellPeps is a telehealth platform that connects you with independent licensed medical providers. All medical decisions and prescriptions are made solely by those providers.</p>
-          <p className="text-white/60 text-xs leading-relaxed">WellPeps is not a pharmacy or a medical practice. All medical services are provided by independent licensed medical providers, and medications are fulfilled by state-licensed compounding pharmacies. Availability varies by state. Some states require a synchronous initial visit.</p>
+    <section className="relative overflow-hidden bg-gradient-to-b from-white to-[#F4F9FF]">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-28 md:pt-32 pb-16 md:pb-24">
+        <div className="grid items-center gap-10 md:gap-14 md:grid-cols-2">
+          {/* Copy */}
+          <div className="max-w-xl">
+            <span className="inline-flex items-center gap-2 rounded-full bg-[#EAF5FF] px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#1565C0]">
+              <i className="ri-shield-check-line text-xs"></i>
+              Physician-Founded · Pharmacy-Backed
+            </span>
+            <h1
+              className="mt-5 text-4xl md:text-6xl font-bold leading-[1.05] text-[#153B73]"
+              style={{ fontFamily: '"Playfair Display", serif' }}
+            >
+              Personalized Wellness.{" "}
+              <span className="text-[#1565C0]">Simplified.</span>
+            </h1>
+            <p className="mt-6 text-lg leading-relaxed text-[#4B5C73] max-w-lg">
+              Access personalized treatment programs designed around your unique
+              health goals — with licensed providers, ongoing support, and
+              medications delivered to your door.
+            </p>
+            <div className="mt-8 flex flex-col sm:flex-row gap-3">
+              <a
+                href="/intake"
+                data-clarity-tag="home-hero-assessment"
+                className="inline-flex items-center justify-center bg-[#1565C0] text-white font-semibold px-7 py-3.5 rounded-full text-sm whitespace-nowrap hover:bg-[#0F56AF] shadow-lg shadow-[#1565C0]/25 transition-all duration-200 cursor-pointer hover:-translate-y-0.5"
+              >
+                Start Your Free Assessment
+              </a>
+              <a
+                href="/programs"
+                data-clarity-tag="home-hero-programs"
+                className="inline-flex items-center justify-center bg-white border-2 border-[#1565C0] text-[#1565C0] font-semibold px-7 py-3.5 rounded-full text-sm whitespace-nowrap hover:bg-[#EAF5FF] transition-all duration-200 cursor-pointer"
+              >
+                Explore Our Programs
+              </a>
+            </div>
+            <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-[#7A8899]">
+              <span className="flex items-center gap-1.5">
+                <i className="ri-checkbox-circle-line text-[#1565C0]"></i>
+                100% online intake
+              </span>
+              <span className="flex items-center gap-1.5">
+                <i className="ri-checkbox-circle-line text-[#1565C0]"></i>
+                Licensed providers
+              </span>
+              <span className="flex items-center gap-1.5">
+                <i className="ri-checkbox-circle-line text-[#1565C0]"></i>
+                Discreet delivery
+              </span>
+            </div>
+          </div>
+
+          {/* Image */}
+          <div className="relative">
+            <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[#EAF5FF] to-[#2EA8F7]/20 blur-2xl" />
+            <div className="relative aspect-[4/5] sm:aspect-[5/4] md:aspect-[4/5] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-[#082B59]/15 ring-1 ring-[#082B59]/5">
+              {/* TODO: replace with WellPeps "Hero Couple Photo" from Drive */}
+              <img
+                src="/images/how-it-works-07-healthy-woman-smiling-outdoors-near-the-.jpg"
+                alt="A WellPeps patient living well after personalized telehealth care"
+                className="w-full h-full object-cover"
+                width={1000}
+                height={1250}
+                loading="eager"
+                fetchPriority="high"
+                decoding="async"
+              />
+            </div>
+          </div>
         </div>
-        <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-          <a data-clarity-tag="hiw-hero-intake" className="bg-white text-[#082B59] font-semibold px-8 py-3.5 rounded-full text-sm whitespace-nowrap hover:bg-[#EAF5FF] shadow-lg shadow-[#082B59]/20 transition-all duration-200 cursor-pointer hover:-translate-y-0.5" href="/intake">Start Your Intake</a>
-          <a data-clarity-tag="hiw-hero-find-program" className="bg-white/10 border border-white/30 text-white font-medium px-8 py-3.5 rounded-full text-sm whitespace-nowrap hover:bg-white/20 transition-all duration-200 cursor-pointer" href="/eligibility">Find My Program</a>
-        </div>
-      </div>
-      <div className="absolute bottom-[-2px] left-0 right-0 leading-[0]">
-        <svg viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full block">
-          <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#F7F9FC" />
-        </svg>
       </div>
     </section>
   );
