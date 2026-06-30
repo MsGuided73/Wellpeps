@@ -1,8 +1,8 @@
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-white to-[#F4F9FF]">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-[160px] md:pt-44 pb-16 md:pb-24">
-        <div className="grid items-center gap-10 md:gap-14 md:grid-cols-2">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-[176px] md:pt-52 pb-16 md:pb-28">
+        <div className="grid items-stretch gap-10 md:gap-16 md:grid-cols-[1fr_1.12fr]">
           {/* Copy */}
           <div className="max-w-xl">
             <span className="inline-flex items-center gap-2 rounded-full bg-[#EAF5FF] px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#1565C0]">
@@ -54,9 +54,9 @@ export function HeroSection() {
           </div>
 
           {/* Image */}
-          <div className="relative">
+          <div className="relative md:h-full">
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[#EAF5FF] to-[#2EA8F7]/20 blur-2xl" />
-            <div className="relative aspect-[4/3] md:aspect-[5/4] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-[#082B59]/15 ring-1 ring-[#082B59]/5">
+            <div className="relative aspect-[4/3] md:aspect-auto md:h-full md:min-h-[480px] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-[#082B59]/15 ring-1 ring-[#082B59]/5">
               <img
                 src="/images/wellpeps-hero-couple.webp"
                 alt="A couple living well with personalized care from WellPeps"
