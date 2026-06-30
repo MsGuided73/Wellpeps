@@ -17,10 +17,10 @@ export function HeroSection() {
           Clean modern telehealth workspace with prescription packaging, health forms, and warm natural light — representing the WellPeps digital care process. Complete your intake online, get provider review, receive discreet delivery if prescribed.
         </figcaption>
       </figure>
-      <div className="absolute inset-0 bg-[#1565C0]/60"></div>
-      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#082B59]/55 via-[#1565C0]/30 to-[#2EA8F7]/15"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-transparent to-black/25"></div>
       <div className="relative z-10 max-w-4xl mx-auto text-center px-5 md:px-0 pt-28 md:pt-32 pb-16 md:pb-20">
-        <p className="text-[#1565C0] text-xs font-semibold uppercase tracking-widest mb-4">The Process</p>
+        <p className="text-[#D8A53A] text-xs font-semibold uppercase tracking-widest mb-4">The Process</p>
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight" style={{ fontFamily: '"Playfair Display", serif' }}>How WellPeps Works</h1>
         <p className="text-blue-100 text-base max-w-2xl mx-auto leading-relaxed">Choose your goal, complete a secure online intake, and get reviewed by a licensed provider. Treatment is prescribed only when clinically appropriate and ships discreetly if prescribed.</p>
         <div className="mt-6 max-w-2xl mx-auto border-t border-white/10 pt-5 space-y-2">
