@@ -21,33 +21,13 @@ export function Header() {
           href="/"
         >
           <img
-            src="/images/wellpeps-w-logo.png"
+            src="/images/wellpeps-w-logo.webp"
             alt="WellPeps"
             className="h-[68px] w-auto object-contain flex-shrink-0"
             width={102}
             height={68}
             loading="eager"
             fetchPriority="high"
-            decoding="async"
-          />
-          <span
-            className="font-extrabold text-2xl tracking-tight transition-colors duration-200 whitespace-nowrap text-[#082B59] -ml-1"
-            style={{ fontFamily: '"Playfair Display", serif' }}
-          >
-            Well<span className="text-[#1565C0]">Peps</span>
-          </span>
-        </a>
-        <a
-          className="md:hidden absolute inset-0 z-0 flex items-center justify-center gap-1 cursor-pointer active:opacity-80 transition-opacity"
-          aria-label="Go to homepage"
-          href="/"
-        >
-          <img
-            src="/images/wellpeps-w-logo.png"
-            alt="WellPeps"
-            className="h-[56px] w-auto object-contain flex-shrink-0"
-            width={84}
-            height={56}
             decoding="async"
           />
           <span

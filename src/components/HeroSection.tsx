@@ -1,7 +1,7 @@
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-white to-[#F4F9FF]">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-36 md:pt-44 pb-16 md:pb-24">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-[160px] md:pt-44 pb-16 md:pb-24">
         <div className="grid items-center gap-10 md:gap-14 md:grid-cols-2">
           {/* Copy */}
           <div className="max-w-xl">
