@@ -10,12 +10,9 @@ export function Header() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          backdropFilter: "blur(20px) saturate(150%)",
-          backgroundColor: "rgba(255, 255, 255, 0.72)",
-          borderBottom: "1px solid rgba(0, 0, 0, 0.06)",
-          boxShadow: "rgba(0, 0, 0, 0.08) 0px 4px 24px",
-          transition:
-            "background-color 380ms, border-color 380ms, box-shadow 380ms, backdrop-filter 380ms",
+          backgroundColor: "#FFFFFF",
+          borderBottom: "1px solid rgba(8, 43, 89, 0.08)",
+          boxShadow: "rgba(8, 43, 89, 0.06) 0px 1px 12px",
         }}
       ></div>
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10 flex items-center h-20">
@@ -23,13 +20,6 @@ export function Header() {
           className="flex items-center gap-2.5 flex-shrink-0 relative z-10 active:opacity-80 transition-opacity"
           href="/"
         >
-          <span
-            className="flex items-center justify-center w-9 h-9 rounded-lg bg-[#082B59] text-white text-lg font-extrabold flex-shrink-0 shadow-sm"
-            style={{ fontFamily: '"Playfair Display", serif' }}
-            aria-hidden="true"
-          >
-            W
-          </span>
           <span
             className="font-extrabold text-2xl tracking-tight transition-colors duration-200 whitespace-nowrap text-[#082B59]"
             style={{ fontFamily: '"Playfair Display", serif' }}
@@ -42,13 +32,6 @@ export function Header() {
           aria-label="Go to homepage"
           href="/"
         >
-          <span
-            className="flex items-center justify-center w-8 h-8 rounded-lg bg-[#082B59] text-white text-base font-extrabold flex-shrink-0"
-            style={{ fontFamily: '"Playfair Display", serif' }}
-            aria-hidden="true"
-          >
-            W
-          </span>
           <span
             className="font-extrabold text-2xl tracking-tight transition-colors duration-200 whitespace-nowrap text-[#082B59]"
             style={{ fontFamily: '"Playfair Display", serif' }}
