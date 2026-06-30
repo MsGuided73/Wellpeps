@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Ultra-early IAB error guard — runs before any third-party scripts load so
+         GTM, Clarity, and Meta Pixel crashes are swallowed before they can break the page. -->
+    <script type="a5d65b8ac30a3d8468d52e1b-text/javascript">
+    (function() {
+      var iabRe = /FBAN|FBAV|Instagram|FB_IAB|FB4A|FBIOS|BytedanceWebview|musical_ly|TikTok|LinkedInApp|Snapchat|Pinterest/;
+      var crashRe = /enabledidusertypeonkeyboardlogging|java object is gone|script error\.|java object|invoking|bridge|webview|cannot read property|undefined is not|null is not/i;
+      function inIAB() {
+        try { return iabRe.test(navigator.userAgent || ''); } catch (_e) { return false; }
+      }
+      function isCrash(msg) {
+        try { msg = String(msg || '').toLowerCase(); } catch (_e) { msg = ''; }
+        return crashRe.test(msg) || inIAB();
+      }
+      function swallow(e) {
+        var msg = '';
+        try { msg = (e && e.message) || (e && e.reason) || ''; } catch (_e) { msg = ''; }
+        if (!isCrash(msg)) return;
+        try { if (e.preventDefault) e.preventDefault(); } catch (_e) {}
+        try { if (e.stopPropagation) e.stopPropagation(); } catch (_e) {}
+        try { if (e.stopImmediatePropagation) e.stopImmediatePropagation(); } catch (_e) {}
+      }
+      try { window.addEventListener('error', swallow, true); } catch (_e) {}
+      try { window.addEventListener('unhandledrejection', swallow, true); } catch (_e) {}
+    })();
+    </script>
+    <!-- Google Tag Manager — deferred until first user interaction so it never
+         blocks LCP, FID, or INP. dataLayer is stubbed immediately so any early
+         pushes (e.g. from gtag) are queued and replayed once GTM loads. -->
+    <script type="a5d65b8ac30a3d8468d52e1b-text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      (function() {
+        var _gtmLoaded = false;
+        function loadGTM() {
+          if (_gtmLoaded) return;
+          _gtmLoaded = true;
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-5WT6DTMH');
+        }
+        // Fire on first scroll, click, touch, or keydown
+        var _gtmEvents = ['scroll','click','touchstart','keydown','mousemove'];
+        function _gtmInteraction() {
+          loadGTM();
+          _gtmEvents.forEach(function(e){ window.removeEventListener(e, _gtmInteraction, {passive:true}); });
+        }
+        _gtmEvents.forEach(function(e){ window.addEventListener(e, _gtmInteraction, {passive:true}); });
+        // Fallback: load after 6s even with no interaction
+        setTimeout(loadGTM, 6000);
+      })();
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) — direct install for GA4 property G-SQC07LFLPR
+         Ensures the tag loads on every route, including the static shell,
+         so Google Tag Assistant detects it even before React hydrates. -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-SQC07LFLPR" type="a5d65b8ac30a3d8468d52e1b-text/javascript"></script>
+    <script defer type="a5d65b8ac30a3d8468d52e1b-text/javascript">
+      window.addEventListener("DOMContentLoaded", function() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        // Default consent: analytics granted (first-party), ads denied until user opts in.
+        // This is required by Google for EEA/UK traffic — without it, conversion
+        // measurement may be throttled or blocked for ad campaigns.
+        gtag('consent', 'default', {
+          'analytics_storage': 'granted',
+          'ad_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied',
+          'wait_for_update': 2000,
+        });
+
+        gtag('config', 'G-SQC07LFLPR');
+      });
+    </script>
+    <!-- End Google tag (gtag.js) -->
+    <link rel="dns-prefetch" href="https://storage.readdy-site.link" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon — fetchpriority=low so it never competes with LCP image -->
+    <link rel="icon" type="image/png" href="https://public.readdy.ai/ai/img_res/43cc501a-2e03-4362-a7a9-a73c0d9e501d.png?format=webp&quality=80" fetchpriority="low" />
+    <link rel="apple-touch-icon" href="https://public.readdy.ai/ai/img_res/43cc501a-2e03-4362-a7a9-a73c0d9e501d.png?format=webp&quality=80" fetchpriority="low" />
+
+    <!-- Primary SEO (overridden per-page by SEOHead component) -->
+    <title>GLP-1 Weight Loss Telehealth | Longevity | Open Water</title>
+    <meta name="description" content="GLP-1 weight loss, NAD+ longevity, and men's performance care from licensed providers. Semaglutide from $249/mo. No insurance. All 50 states." />
+    <meta name="keywords" content="telehealth weight loss, GLP-1 weight loss online, semaglutide online prescription, tirzepatide online prescription, NAD+ therapy telehealth, peptide therapy online, men's sexual health telehealth, energy longevity telehealth, compounded semaglutide, compounded tirzepatide, online weight loss doctor, licensed provider telehealth, no insurance telehealth, nationwide telehealth prescription" />
+    <meta name="author" content="Open Water Rx Medical Team" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="last-modified" content="2026-06-23" />
+    <meta name="theme-color" content="#0B7A8C" />
+
+    <!-- Canonical and hreflang are injected dynamically per-page by SEOHead component.
+         Hardcoding them here would make every subpage claim its canonical is the homepage,
+         causing "Alternate page with proper canonical tag" indexing errors. -->
+
+    <!-- Sitemap discovery -->
+    <link rel="sitemap" type="application/xml" href="https://openwaterrx.com/sitemap.xml" />
+    <link rel="sitemap" type="application/xml" href="https://openwaterrx.com/sitemap-index.xml" title="Sitemap Index" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Open Water Rx" />
+    <meta property="og:title" content="GLP-1 Weight Loss Telehealth | Longevity | Open Water" />
+    <meta property="og:description" content="GLP-1 weight loss, NAD+ longevity, and men's performance care from licensed providers. Semaglutide from $249/mo. No insurance. All 50 states." />
+    <meta property="og:url" content="https://openwaterrx.com/favicon.ico" />
+    <meta property="og:image" content="https://storage.readdy-site.link/project_files/b25cecfa-23b1-48fb-b21d-e1cabf18d4c1/2a447b78-c7f8-4ea3-8b6f-043479c46968_ChatGPT-Image-May-5-2026-05_06_58-PM.png?v=74b3765a6db5d0583c1e0a5e78a16c2f&format=webp&quality=80" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Open Water Rx — Telehealth for Weight Loss, Longevity & Performance" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GLP-1 Weight Loss Telehealth | Longevity | Open Water" />
+    <meta name="twitter:description" content="GLP-1 weight loss, NAD+ longevity, and men's performance care from licensed providers. Semaglutide from $249/mo. No insurance. All 50 states." />
+    <meta name="twitter:image" content="https://storage.readdy-site.link/project_files/b25cecfa-23b1-48fb-b21d-e1cabf18d4c1/2a447b78-c7f8-4ea3-8b6f-043479c46968_ChatGPT-Image-May-5-2026-05_06_58-PM.png?v=74b3765a6db5d0583c1e0a5e78a16c2f&format=webp&quality=80" />
+    <meta name="twitter:image:alt" content="Open Water Rx — Telehealth for Weight Loss, Longevity & Performance" />
+
+    <!-- Geo tags intentionally omitted on root — service is nationwide (all 50 states).
+         Florida-specific geo tags are applied only on Florida city/state landing pages. -->
+
+    <!-- Route-aware LCP image preload — async so it does not block HTML parsing -->
+    <script async type="a5d65b8ac30a3d8468d52e1b-text/javascript">
+      (function() {
+        var p = window.location.pathname.replace(/\/$/, "") || "/";
+
+        function preloadImage(href) {
+          var l = document.createElement("link");
+          l.rel = "preload";
+          l.as = "image";
+          l.setAttribute("fetchpriority", "high");
+          l.href = href;
+          document.head.appendChild(l);
+        }
+
+        // Homepage preload removed — replaced by real <link rel="preload"> tags in <head>
+        // with responsive media queries that the preload scanner can discover immediately.
+
+        if (p === "/eligibility") {
+          preloadImage(
+            "https://public.readdy.ai/ai/img_res/1d2825203a9ae327c0088a52d580b049.jpg"
+          );
+        }
+
+        if (p === "/get-started") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=calm%20teal%20ocean%20water%20surface%20from%20above%2C%20gentle%20ripples%2C%20deep%20teal%20color%2C%20serene%20and%20peaceful%2C%20abstract%20water%20texture%2C%20high%20resolution&width=1440&height=400&seq=intake_hero01&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/semaglutide-weight-loss-florida") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=aerial%20view%20of%20beautiful%20Florida%20Gulf%20Coast%20coastline%2C%20turquoise%20water%20meeting%20white%20sand%20beach%2C%20lush%20green%20palm%20trees%2C%20Cape%20Coral%20Fort%20Myers%20area%2C%20warm%20golden%20sunlight%2C%20stunning%20tropical%20paradise%2C%20wide%20panoramic%20shot%2C%20photorealistic&width=1280&height=560&seq=sema_hero_fl&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/tirzepatide-weight-loss-florida") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=stunning%20sunrise%20over%20calm%20Florida%20Gulf%20Coast%20water%2C%20warm%20golden%20orange%20and%20teal%20colors%2C%20peaceful%20ocean%20horizon%2C%20Southwest%20Florida%20coastal%20landscape%2C%20Cape%20Coral%20area%2C%20photorealistic%2C%20wide%20panoramic%2C%20beautiful%20tropical%20morning%20light&width=1280&height=560&seq=tirz_hero_fl&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/florida-glp1-weight-loss") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=wide%20aerial%20panorama%20of%20Florida%20state%20beautiful%20coastlines%20Gulf%20and%20Atlantic%20tropical%20green%20landscape%20turquoise%20ocean%20warm%20golden%20light%20stunning%20bird-eye%20view%20Florida%20geography%20photorealistic%20ultra%20wide%20shot&width=1280&height=560&seq=fl_glp1_hero_v1&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/start-your-program" || p === "/start") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=ultra%20dramatic%20cinematic%20aerial%20view%20of%20dark%20ocean%20water%20at%20golden%20hour%2C%20deep%20navy%20black%20water%20surface%20with%20shimmering%20golden%20amber%20light%20reflections%20cutting%20across%20the%20frame%20diagonally%2C%20moody%20luxury%20editorial%20photography%20style%2C%20high%20contrast%2C%20no%20people%2C%20abstract%20and%20atmospheric%2C%20dark%20teal%20and%20deep%20black%20water%20with%20streaks%20of%20warm%20gold%20light%2C%20photorealistic%2C%20wide%20panoramic%20shot%2C%20cinematic%20color%20grading&width=1200&height=750&seq=start_hero_poster_v2&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/compare" || p === "/semaglutide-vs-tirzepatide") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=confident%20smiling%20man%20in%20his%2040s%20sitting%20at%20a%20bright%20modern%20kitchen%20counter%20reviewing%20a%20tablet%20showing%20health%20program%20options%20morning%20sunlight%20streaming%20through%20large%20coastal%20windows%20wearing%20casual%20navy%20henley%20aspirational%20wellness%20lifestyle%20photography%20warm%20teal%20and%20amber%20color%20palette%20dynamic%20natural%20lighting%20shallow%20depth%20of%20field%20high%20end%20coastal%20home%20interior%20with%20natural%20wood%20textures%20and%20plants%20cinematic%20composition%20professional%20commercial%20photography%20energetic%20and%20decisive%20mood&width=1440&height=560&seq=cp_hero_v3&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/glp1-cost-florida") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=elegant%20top-down%20flatlay%20of%20premium%20white%20pharmacy%20prescription%20boxes%20with%20minimalist%20labels%2C%20small%20glass%20medicine%20vial%2C%20gold%20pen%2C%20subtle%20teal%20accent%20ribbon%20on%20clean%20white%20marble%20surface%2C%20soft%20diffused%20natural%20lighting%2C%20premium%20healthcare%20branding%20aesthetic%2C%20no%20hands%2C%20no%20devices%2C%20no%20text%2C%20ultra%20clean%20modern%20medical%20photography&width=1280&height=560&seq=cost_hero_02&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/florida-weight-loss-guide-2026") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=aerial%20view%20Southwest%20Florida%20coastline%20golden%20hour%20Cape%20Coral%20canals%20Fort%20Myers%20waterways%20lush%20tropical%20landscape%20warm%20teal%20golden%20tones%20wide%20panoramic%20photorealistic%20Gulf%20Coast%20scenery&width=1280&height=560&seq=guide2026_hero&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/faq") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=bright%20happy%20couple%20sitting%20together%20on%20a%20cozy%20modern%20sofa%20in%20a%20sunlit%20coastal%20living%20room%20casually%20browsing%20a%20laptop%20together%20with%20relaxed%20confident%20body%20language%20warm%20morning%20light%20through%20floor%20to%20ceiling%20windows%20teal%20and%20gold%20accents%20in%20the%20decor%20aspirational%20wellness%20lifestyle%20photography%20shallow%20depth%20of%20field%20high%20end%20interior%20with%20natural%20textures%20and%20indoor%20plants%20cinematic%20professional%20commercial%20photography%20mood&width=1920&height=480&seq=faq_hero_v2&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/how-it-works") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=calm%20teal%20ocean%20water%20surface%20from%20above%20aerial%20view%20gentle%20ripples%20deep%20teal%20color%20serene%20peaceful%20abstract%20water%20texture%20high%20resolution%20beautiful%20natural%20pattern&width=1280&height=334&seq=hiw_hero&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/about") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=stunning%20aerial%20drone%20view%20turquoise%20Gulf%20of%20Mexico%20water%20near%20Florida%20coast%20clear%20shallow%20water%20sandy%20bottom%20visible%20warm%20golden%20sunlight%20tropical%20paradise%20wide%20landscape%20vivid%20teal&width=1280&height=700&seq=abouthero99&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/energy-longevity") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=serene%20abstract%20ocean%20scene%20with%20soft%20teal%20and%20aqua%20tones%2C%20gentle%20flowing%20wave%20patterns%20suggesting%20calm%20water%20movement%2C%20minimal%20modern%20aesthetic%2C%20no%20people%2C%20no%20warm%20sunlight%2C%20cool%20coastal%20spa%20atmosphere%2C%20subtle%20light%20gradient%20from%20cream%20horizon%20to%20deep%20teal%20water%2C%20peaceful%20wellness%20mood%2C%20premium%20healthcare%20design%2C%20faint%20organic%20cellular%20texture%20integrated%20into%20water%20ripples%2C%20very%20subtle%20warm%20highlight%20only%20at%20horizon%20edge&width=1440&height=680&seq=el_hero_v4_desktop&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        // Preload video poster images for pages with hero videos
+        if (p === "/start2") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=soft%20warm%20abstract%20background%20with%20dusty%20rose%20pink%20and%20sage%20green%20tones%2C%20gentle%20watercolor%20texture%2C%20muted%20cream%20and%20blush%20gradients%2C%20calming%20wellness%20aesthetic%2C%20minimal%20and%20elegant%2C%20no%20people%2C%20organic%20flowing%20shapes%2C%20spa%20and%20health%20brand%20visual%20style%2C%20high%20resolution&width=1200&height=750&seq=start2_hero_poster_v1&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/start3") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=dark%20moody%20ocean%20water%20at%20night%20with%20subtle%20moonlight%20reflections%2C%20deep%20navy%20tones%2C%20cinematic%20editorial%20photography%2C%20no%20people%2C%20abstract%20and%20atmospheric&width=1200&height=750&seq=start3_hero_poster_v1&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/weight-loss") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=aerial%20view%20of%20calm%20ocean%20water%20at%20golden%20hour%2C%20teal%20water%20with%20warm%20golden%20light%2C%20serene%20coastal%20landscape%2C%20cinematic%20wide%20shot%2C%20high%20resolution%2C%20no%20people&width=1440&height=620&seq=wl_hero_v2&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/start4") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=serene%20luxury%20wellness%20lifestyle%20scene%20at%20a%20coastal%20villa%20during%20golden%20hour%2C%20warm%20ivory%20linen%20textures%2C%20elegant%20marble%20surfaces%20with%20soft%20natural%20light%2C%20a%20sophisticated%20woman%20in%20her%2040s%20practicing%20mindful%20wellness%20routine%2C%20muted%20teal%20and%20warm%20gold%20tones%2C%20premium%20editorial%20photography%20style%2C%20soft%20bokeh%20background%20with%20subtle%20ocean%20view%2C%20calming%20and%20aspirational%20atmosphere%2C%20no%20text%2C%20photorealistic%2C%20high-end%20wellness%20magazine%20aesthetic%2C%20shallow%20depth%20of%20field&width=1200&height=750&seq=start4_hero_main&orientation=landscape&format=webp&quality=80"
+          );
+        }
+
+        if (p === "/start5") {
+          preloadImage(
+            "https://readdy.ai/api/search-image?query=confident%20woman%20in%20her%2040s%20standing%20in%20a%20bright%20modern%20coastal%20kitchen%20looking%20out%20a%20large%20ocean-facing%20window%20with%20morning%20natural%20light%20streaming%20in%2C%20warm%20ivory%20and%20natural%20wood%20interior%2C%20she%20appears%20calm%20and%20in%20control%20of%20her%20wellness%20routine%2C%20subtle%20teal%20and%20gold%20accents%20in%20decor%2C%20premium%20editorial%20photography%20style%2C%20aspirational%20yet%20grounded%20mood%2C%20no%20text%2C%20photorealistic%2C%20high-end%20lifestyle%20magazine%20quality%2C%20shallow%20depth%20of%20field%2C%20elegant%20coastal%20home%20aesthetic&width=1200&height=750&seq=start5_hero_v2&orientation=landscape&format=webp&quality=80"
+          );
+        }
+      })();
+    </script>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://readdy.ai" crossorigin />
+    <link rel="preconnect" href="https://public.readdy.ai" crossorigin />
+    <!-- Homepage hero image preload — responsive media queries so the preload scanner only loads the matching variant. Replaces the ineffective JS-generated preload below. -->
+    <link rel="preload" as="image" href="https://readdy.ai/api/search-image?query=calm%20Gulf%20Coast%20ocean%20water%20at%20golden%20hour%2C%20aerial%20view%2C%20teal%20water%20and%20warm%20golden%20sky%2C%20Southwest%20Florida%20coast%2C%20serene%20and%20beautiful%2C%20cinematic%20wide%20shot%2C%20high%20resolution&width=1280&height=720&seq=hero_desktop_v4&orientation=landscape&format=webp&quality=80" media="(min-width: 1024px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://readdy.ai/api/search-image?query=calm%20Gulf%20Coast%20ocean%20water%20at%20golden%20hour%2C%20aerial%20view%2C%20teal%20water%20and%20warm%20golden%20sky%2C%20Southwest%20Florida%20coast%2C%20serene%20and%20beautiful%2C%20cinematic%20wide%20shot%2C%20high%20resolution&width=768&height=432&seq=hero_tablet_v4&orientation=landscape&format=webp&quality=80" media="(min-width: 480px) and (max-width: 1023px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="https://readdy.ai/api/search-image?query=calm%20Gulf%20Coast%20ocean%20water%20at%20golden%20hour%2C%20aerial%20view%2C%20teal%20water%20and%20warm%20golden%20sky%2C%20Southwest%20Florida%20coast%2C%20serene%20and%20beautiful%2C%20cinematic%20wide%20shot%2C%20high%20resolution&width=480&height=720&seq=hero_mobile_v3&orientation=portrait&format=webp&quality=80" media="(max-width: 479px)" fetchpriority="high" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <!-- Video CDN — preconnect so the TCP handshake is done before video starts loading -->
+    <link rel="preconnect" href="https://public.readdy.ai" crossorigin />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="dns-prefetch" href="https://public.readdy.ai" />
+    <link rel="dns-prefetch" href="https://storage.readdy-site.link" />
+    <link rel="dns-prefetch" href="https://tally.so" />
+    <link rel="dns-prefetch" href="https://ipapi.co" />
+    <link rel="dns-prefetch" href="https://connect.facebook.net" />
+    <link rel="dns-prefetch" href="https://www.clarity.ms" />
+    <!-- Tally embed widget — defer so it never blocks first paint -->
+    <script src="https://tally.so/widgets/embed.js" defer type="a5d65b8ac30a3d8468d52e1b-text/javascript"></script>
+
+    <!-- Google Fonts — non-blocking: preload fetches early, media=print prevents render block.
+         display=swap ensures text renders immediately in fallback font (no invisible text / FOIT).
+         Inter 400/500/600/700 for body, Playfair Display 700 for headings.
+         Dropped: Cormorant Garamond (zero code references), Inter 300 (only one usage, bumped to 400). -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" crossorigin />
+    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a5d65b8ac30a3d8468d52e1b-|49"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" crossorigin />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" crossorigin /></noscript>
+
+    <!-- Remix Icon — non-blocking: preload fetches early, media=print prevents render block -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" crossorigin />
+    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a5d65b8ac30a3d8468d52e1b-|49"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" media="print" onload="this.media='all'" crossorigin />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css" crossorigin /></noscript>
+
+    <!-- Critical above-the-fold CSS inlined -->
+    <style>
+      /* Reset */
+      *,::before,::after{box-sizing:border-box;border-width:0;border-style:solid}
+      html{-webkit-text-size-adjust:100%;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}
+      body{margin:0;font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;line-height:inherit}
+      #root{min-height:100vh}
+      img,video{display:block;max-width:100%}
+
+      /* Hero shell layout */
+      .owrx-shell{position:relative;min-height:100vh;background:#0B7A8C;display:flex;align-items:center;justify-content:center;overflow:hidden}
+      .owrx-shell-inner{position:relative;z-index:10;width:100%;max-width:1280px;margin:0 auto;padding:96px 40px 80px;display:flex;flex-direction:column;align-items:center;text-align:center}
+      .owrx-h1{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:clamp(2rem,6vw,4.5rem);font-weight:700;color:#fff;line-height:1.15;margin:0 0 24px;max-width:900px;opacity:1;letter-spacing:-0.01em}
+      .owrx-accent{color:#E8A923}
+      .owrx-sub{color:rgba(255,255,255,0.85);font-size:clamp(1rem,2vw,1.2rem);max-width:600px;margin:0 0 40px;line-height:1.65;font-weight:300}
+      .owrx-cta{background:#E8A923;color:#fff;font-weight:600;padding:18px 48px;border-radius:9999px;text-decoration:none;font-size:1rem;display:inline-block;white-space:nowrap;font-family:inherit}
+
+      /* Tailwind critical utilities */
+      .relative{position:relative}.absolute{position:absolute}.inset-0{inset:0}
+      .overflow-hidden{overflow:hidden}.min-h-screen{min-height:100vh}
+      .flex{display:flex}.items-center{align-items:center}.justify-center{justify-content:center}
+      .w-full{width:100%}.h-full{height:100%}
+      .object-cover{-o-object-fit:cover;object-fit:cover}.object-top{-o-object-position:top;object-position:top}
+      .z-10{z-index:10}.z-50{z-index:50}.fixed{position:fixed}
+      .top-0{top:0}.left-0{left:0}.right-0{right:0}
+      .text-white{color:#fff}.font-bold{font-weight:700}.text-center{text-align:center}
+      .bg-\[\#0B7A8C\]{background-color:#0B7A8C}
+
+      /* Scroll animations */
+      .anim-fade-up{opacity:0.01;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
+      .anim-fade-up.is-visible{opacity:1;transform:translateY(0)}
+      .anim-fade-in{opacity:0.01;transition:opacity .7s ease}
+      .anim-fade-in.is-visible{opacity:1}
+      .anim-slide-left{opacity:0.01;transform:translateX(-32px);transition:opacity .65s ease,transform .65s ease}
+      .anim-slide-left.is-visible{opacity:1;transform:translateX(0)}
+      .anim-slide-right{opacity:0.01;transform:translateX(32px);transition:opacity .65s ease,transform .65s ease}
+      .anim-slide-right.is-visible{opacity:1;transform:translateX(0)}
+      .anim-delay-100{transition-delay:100ms}.anim-delay-200{transition-delay:200ms}
+      .anim-delay-300{transition-delay:300ms}.anim-delay-400{transition-delay:400ms}
+      .anim-delay-500{transition-delay:500ms}
+
+      @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+
+      /* owrx-body-content: per-route static content slot (hidden when empty) */
+      .owrx-body-content:empty{display:none}
+      .owrx-body-content{width:100%;max-width:900px;margin:48px auto 0;padding:0 24px;text-align:left;color:rgba(255,255,255,0.9)}
+      .owrx-body-content h2{font-family:'Playfair Display',Georgia,'Times New Roman',serif;font-size:clamp(1.25rem,3vw,1.75rem);font-weight:700;color:#fff;margin:0 0 12px;line-height:1.2}
+      .owrx-body-content p{font-size:0.975rem;line-height:1.7;color:rgba(255,255,255,0.82);margin:0 0 16px}
+      .owrx-body-content .owrx-faq{border-top:1px solid rgba(255,255,255,0.18);margin-top:32px;padding-top:24px}
+      .owrx-body-content .owrx-faq-item{padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.12)}
+      .owrx-body-content .owrx-faq-item dt{font-weight:600;font-size:0.975rem;color:#fff;margin:0 0 6px}
+      .owrx-body-content .owrx-faq-item dd{margin:0;font-size:0.9rem;line-height:1.65;color:rgba(255,255,255,0.78)}
+      .owrx-body-content .owrx-links{margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.18)}
+      .owrx-body-content .owrx-links h2{margin-bottom:14px}
+      .owrx-body-content .owrx-links ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:10px}
+      .owrx-body-content .owrx-links li{}
+      .owrx-body-content .owrx-links a{display:inline-block;background:rgba(255,255,255,0.12);color:#fff;text-decoration:none;padding:8px 16px;border-radius:9999px;font-size:0.875rem;font-weight:500;border:1px solid rgba(255,255,255,0.22)}
+    </style>
+    <meta name="google-site-verification" content="_YTvd5XkTsWYM6YJ73RjGUkmJP7jOyHgH3TsRCMqiaY" />
+    <!-- Canonical and hreflang — default for the static shell.
+         SEOHead overrides these per-page at hydration time via querySelector
+         + setAttribute, so subpages always get their correct page-specific
+         canonical even though the static shell ships the homepage URL. -->
+    <link rel="canonical" href="https://openwaterrx.com/favicon.ico" />
+    <link rel="alternate" hreflang="en-us" href="https://openwaterrx.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://openwaterrx.com/" />
+   <script src="/assets/geo-11536456.js" type="a5d65b8ac30a3d8468d52e1b-text/javascript"></script>
+        <meta name="readdy-project-version" content="dbf2db982f1ae7f08df263188db0435c:efdb2b9262df291dd47267fefe53d5f9:109a7eee692e65a75c9e0254c22a00693ad2176430499414b6ef387e82855bb5cb0ebaf85fe70d3d0434afecb72183b40cc8b0cdeef4838e4ed9cd5f7374237f43"><script type="a5d65b8ac30a3d8468d52e1b-text/javascript">
+          window.EventReportingConfig = {
+            projectId: 'b25cecfa-23b1-48fb-b21d-e1cabf18d4c1',
+            domain: 'https://readdy.ai',
+            debug: false
+          };
+        </script>
+        <script defer src="https://public.readdy.ai/analysis/event-reporting.min.js" type="a5d65b8ac30a3d8468d52e1b-text/javascript"></script>
+          <script type="a5d65b8ac30a3d8468d52e1b-module" crossorigin src="/assets/index-Db7cgSnU.js"></script>
+          <link rel="modulepreload" crossorigin href="/assets/react-Ca03aNmg.js">
+          <link rel="stylesheet" crossorigin href="/assets/index-BD9PlCnX.css">
+        <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://openwaterrx.com/#organization","name":"Open Water Rx","url":"https://openwaterrx.com","logo":"https://openwaterrx.com/logo.png"},{"@type":"WebSite","@id":"https://openwaterrx.com/#website","url":"https://openwaterrx.com","name":"Open Water Rx","publisher":{"@id":"https://openwaterrx.com/#organization"}}]}</script></head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WT6DTMH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Static shell — minimal branded loader that works for ALL routes.
+           The full homepage hero was previously hardcoded here, which caused React
+           hydration errors on every non-homepage route (React saw the hero DOM but
+           expected WeightLossPage / EnergyLongevityPage / etc. → mismatch → error →
+           ErrorBoundary "Something went wrong" → auto-recovery remount).
+           
+           Now: a simple teal shell with just the brand name. React reconciles this
+           instantly with whatever route component mounts, no errors. -->
+      <div id="root">
+        <div class="min-h-screen bg-[#0B7A8C] flex items-center justify-center">
+          <div class="text-white text-2xl font-bold" style="font-family:'Playfair Display',serif;opacity:0.9;">
+            Open Water Rx
+          </div>
+        </div>
+      </div>
+      <noscript>
+        <div style="max-width:900px;margin:48px auto;padding:0 24px;font-family:'Inter',system-ui,sans-serif;color:#1a1a1a;line-height:1.6;">
+          <h1 style="font-family:'Playfair Display',Georgia,serif;font-size:2rem;color:#0B7A8C;margin-bottom:16px;">Open Water Rx — GLP-1 Weight Loss Telehealth</h1>
+          <p>Clinician-guided telehealth for weight loss, longevity, and men&apos;s health. Compounded semaglutide $249/mo, tirzepatide $339/mo. Licensed providers. No insurance. All 50 states.</p>
+          <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:#0B7A8C;margin-top:32px;margin-bottom:16px;">Explore Our Programs</h2>
+          <ul style="list-style:none;padding:0;">
+            <li style="margin-bottom:12px;"><a href="/weight-loss" style="color:#0B7A8C;font-weight:600;">Weight Loss Programs</a> — GLP-1 semaglutide and tirzepatide options</li>
+            <li style="margin-bottom:12px;"><a href="/energy-longevity" style="color:#0B7A8C;font-weight:600;">Energy &amp; Longevity</a> — NAD+ and peptide therapy</li>
+            <li style="margin-bottom:12px;"><a href="/sexual-health" style="color:#0B7A8C;font-weight:600;">Men&apos;s Health</a> — Discreet sexual health care</li>
+            <li style="margin-bottom:12px;"><a href="/semaglutide-vs-tirzepatide" style="color:#0B7A8C;font-weight:600;">Compare Medications</a> — Semaglutide vs tirzepatide</li>
+          </ul>
+          <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:#0B7A8C;margin-top:32px;margin-bottom:16px;">Learn More</h2>
+          <ul style="list-style:none;padding:0;">
+            <li style="margin-bottom:12px;"><a href="/how-it-works" style="color:#0B7A8C;">How It Works</a></li>
+            <li style="margin-bottom:12px;"><a href="/eligibility" style="color:#0B7A8C;">Check Eligibility</a></li>
+            <li style="margin-bottom:12px;"><a href="/faq" style="color:#0B7A8C;">FAQ</a></li>
+            <li style="margin-bottom:12px;"><a href="/pricing" style="color:#0B7A8C;">Pricing</a></li>
+            <li style="margin-bottom:12px;"><a href="/about" style="color:#0B7A8C;">About Us</a></li>
+            <li style="margin-bottom:12px;"><a href="/contact" style="color:#0B7A8C;">Contact</a></li>
+          </ul>
+          <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:#0B7A8C;margin-top:32px;margin-bottom:16px;">Weight Loss by State</h2>
+          <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px;">
+            <li><a href="/locations/florida" style="color:#0B7A8C;">Florida Weight Loss</a></li>
+            <li><a href="/locations/texas" style="color:#0B7A8C;">Texas Weight Loss</a></li>
+            <li><a href="/locations/california" style="color:#0B7A8C;">California Weight Loss</a></li>
+            <li><a href="/locations/new-york" style="color:#0B7A8C;">New York Weight Loss</a></li>
+            <li><a href="/locations/georgia" style="color:#0B7A8C;">Georgia Weight Loss</a></li>
+            <li><a href="/locations/illinois" style="color:#0B7A8C;">Illinois Weight Loss</a></li>
+            <li><a href="/locations/ohio" style="color:#0B7A8C;">Ohio Weight Loss</a></li>
+            <li><a href="/locations/pennsylvania" style="color:#0B7A8C;">Pennsylvania Weight Loss</a></li>
+            <li><a href="/locations/michigan" style="color:#0B7A8C;">Michigan Weight Loss</a></li>
+            <li><a href="/locations/north-carolina" style="color:#0B7A8C;">North Carolina Weight Loss</a></li>
+            <li><a href="/locations/tennessee" style="color:#0B7A8C;">Tennessee Weight Loss</a></li>
+            <li><a href="/locations/arizona" style="color:#0B7A8C;">Arizona Weight Loss</a></li>
+            <li><a href="/locations/colorado" style="color:#0B7A8C;">Colorado Weight Loss</a></li>
+            <li><a href="/locations/new-jersey" style="color:#0B7A8C;">New Jersey Weight Loss</a></li>
+            <li><a href="/locations/virginia" style="color:#0B7A8C;">Virginia Weight Loss</a></li>
+            <li><a href="/locations/washington" style="color:#0B7A8C;">Washington Weight Loss</a></li>
+            <li><a href="/locations/massachusetts" style="color:#0B7A8C;">Massachusetts Weight Loss</a></li>
+            <li><a href="/locations/maryland" style="color:#0B7A8C;">Maryland Weight Loss</a></li>
+            <li><a href="/locations/indiana" style="color:#0B7A8C;">Indiana Weight Loss</a></li>
+            <li><a href="/locations/missouri" style="color:#0B7A8C;">Missouri Weight Loss</a></li>
+            <li><a href="/locations/minnesota" style="color:#0B7A8C;">Minnesota Weight Loss</a></li>
+            <li><a href="/locations/wisconsin" style="color:#0B7A8C;">Wisconsin Weight Loss</a></li>
+            <li><a href="/locations/alabama" style="color:#0B7A8C;">Alabama Weight Loss</a></li>
+            <li><a href="/locations/connecticut" style="color:#0B7A8C;">Connecticut Weight Loss</a></li>
+            <li><a href="/locations/nevada" style="color:#0B7A8C;">Nevada Weight Loss</a></li>
+            <li><a href="/locations/oregon" style="color:#0B7A8C;">Oregon Weight Loss</a></li>
+            <li><a href="/locations/south-carolina" style="color:#0B7A8C;">South Carolina Weight Loss</a></li>
+            <li><a href="/locations/utah" style="color:#0B7A8C;">Utah Weight Loss</a></li>
+          </ul>
+          <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:#0B7A8C;margin-top:32px;margin-bottom:16px;">Popular Cities</h2>
+          <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:6px;">
+            <li><a href="/weight-loss-miami" style="color:#0B7A8C;">Miami</a></li>
+            <li><a href="/weight-loss-tampa" style="color:#0B7A8C;">Tampa</a></li>
+            <li><a href="/weight-loss-orlando" style="color:#0B7A8C;">Orlando</a></li>
+            <li><a href="/weight-loss-jacksonville" style="color:#0B7A8C;">Jacksonville</a></li>
+            <li><a href="/weight-loss-cape-coral" style="color:#0B7A8C;">Cape Coral</a></li>
+            <li><a href="/weight-loss-fort-myers" style="color:#0B7A8C;">Fort Myers</a></li>
+            <li><a href="/weight-loss-naples" style="color:#0B7A8C;">Naples</a></li>
+            <li><a href="/weight-loss-houston-tx" style="color:#0B7A8C;">Houston</a></li>
+            <li><a href="/weight-loss-dallas-tx" style="color:#0B7A8C;">Dallas</a></li>
+            <li><a href="/weight-loss-austin-tx" style="color:#0B7A8C;">Austin</a></li>
+            <li><a href="/weight-loss-san-antonio-tx" style="color:#0B7A8C;">San Antonio</a></li>
+            <li><a href="/weight-loss-los-angeles-ca" style="color:#0B7A8C;">Los Angeles</a></li>
+            <li><a href="/weight-loss-chicago-il" style="color:#0B7A8C;">Chicago</a></li>
+            <li><a href="/weight-loss-phoenix-az" style="color:#0B7A8C;">Phoenix</a></li>
+            <li><a href="/weight-loss-atlanta-ga" style="color:#0B7A8C;">Atlanta</a></li>
+            <li><a href="/weight-loss-new-york-ny" style="color:#0B7A8C;">New York City</a></li>
+          </ul>
+          <h2 style="font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;color:#0B7A8C;margin-top:32px;margin-bottom:16px;">Legal &amp; Compliance</h2>
+          <ul style="list-style:none;padding:0;">
+            <li style="margin-bottom:12px;"><a href="/privacy-policy" style="color:#0B7A8C;">Privacy Policy</a></li>
+            <li style="margin-bottom:12px;"><a href="/terms-of-service" style="color:#0B7A8C;">Terms of Service</a></li>
+            <li style="margin-bottom:12px;"><a href="/accessibility" style="color:#0B7A8C;">Accessibility Statement</a></li>
+            <li style="margin-bottom:12px;"><a href="/cancellation-policy" style="color:#0B7A8C;">Cancellation Policy</a></li>
+            <li style="margin-bottom:12px;"><a href="/telehealth-consent" style="color:#0B7A8C;">Telehealth Consent</a></li>
+          </ul>
+          <p style="margin-top:32px;padding-top:24px;border-top:1px solid #e5e5e5;color:#666;font-size:0.875rem;">
+            <strong>Contact:</strong> <a href="mailto:members@openwaterrx.com" style="color:#0B7A8C;">members@openwaterrx.com</a> | <a href="tel:+19413155217" style="color:#0B7A8C;">(941) 315-5217</a><br>
+            Tampa, FL 33607 | Mon&ndash;Fri, 9 AM &ndash; 5 PM ET
+          </p>
+        </div>
+      </noscript>
+
+    <!-- MICROSOFT CLARITY — fires unconditionally on all pages for launch analytics -->
+    <script defer type="a5d65b8ac30a3d8468d52e1b-text/javascript">
+      (function() {
+        function initClarity() {
+          (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "wca2f3j2l6");
+          /* Privacy: mask sensitive text in inputs, textareas, password fields, email fields, and elements marked data-sensitive */
+          try {
+            window.clarity("set", "maskTextSelector", "input, textarea, [data-sensitive], [type='password'], [type='email'], [name*='ssn'], [name*='card']");
+            window.clarity("set", "maskAttribute", ["value", "placeholder", "title"]);
+          } catch (_e) {
+            // Clarity may fail in stripped WebViews — silently ignore
+          }
+        }
+        function scheduleClarity() {
+          if (window.requestIdleCallback) {
+            requestIdleCallback(initClarity, { timeout: 4000 });
+          } else {
+            setTimeout(initClarity, 2000);
+          }
+        }
+        if (document.readyState === "complete") {
+          scheduleClarity();
+        } else {
+          window.addEventListener("load", scheduleClarity);
+        }
+      })();
+    </script>
+    <!-- END MICROSOFT CLARITY -->
+    <!-- Meta Pixel Code — deferred until first user interaction to avoid blocking LCP/FID -->
+    <script type="a5d65b8ac30a3d8468d52e1b-text/javascript">
+      (function() {
+        // Stub fbq immediately so any early calls are queued, not lost
+        if (!window.fbq) {
+          var n = window.fbq = function() {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+          };
+          if (!window._fbq) window._fbq = n;
+          n.push = n; n.loaded = true; n.version = '2.0'; n.queue = [];
+        }
+        fbq('init', '1239219944716616');
+
+        function loadPixel() {
+          if (window._fbPixelLoaded) return;
+          window._fbPixelLoaded = true;
+          var t = document.createElement('script');
+          t.async = true;
+          t.src = 'https://connect.facebook.net/en_US/fbevents.js';
+          document.head.appendChild(t);
+          fbq('track', 'PageView');
+        }
+
+        // Fire on first scroll, click, or touch — whichever comes first
+        var events = ['scroll', 'click', 'touchstart', 'keydown'];
+        function onInteraction() {
+          loadPixel();
+          events.forEach(function(e) { window.removeEventListener(e, onInteraction, { passive: true }); });
+        }
+        events.forEach(function(e) { window.addEventListener(e, onInteraction, { passive: true }); });
+
+        // Fallback: load after 5s even with no interaction (covers bots, slow users)
+        setTimeout(loadPixel, 5000);
+      })();
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1239219944716616&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="a5d65b8ac30a3d8468d52e1b-|49" defer></script></body>
+</html>

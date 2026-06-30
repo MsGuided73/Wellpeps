@@ -1,20 +1,34 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Inter, Playfair_Display } from "next/font/google";
+import "remixicon/fonts/remixicon.css";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "How Open Water RX Works | Online Intake & Provider Review",
+  description:
+    "Learn how Open Water RX works: choose a care path, complete an online intake, receive licensed provider review, and get treatment shipped discreetly if prescribed.",
+  icons: {
+    icon: "/images/how-it-works-00-icon-for-openwaterrx-com.ico",
+    apple: "/images/how-it-works-00-open-water-rx.png",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0B7A8C",
 };
 
 export default function RootLayout({
@@ -25,9 +39,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full bg-[#F8F8F6] text-gray-900 font-sans">
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,0 +1,120 @@
+{
+  "url": "https://openwaterrx.com/how-it-works",
+  "imgManifest": [
+    {
+      "src": "https://public.readdy.ai/ai/img_res/43cc501a-2e03-4362-a7a9-a73c0d9e501d.png?format=webp&quality=80&width=200",
+      "local": "/images/how-it-works-00-open-water-rx.png"
+    },
+    {
+      "src": "https://readdy.ai/api/search-image?query=bright%20modern%20minimalist%20desk%20flatlay%20viewed%20from%20a%20wide%20angle%2C%20clean%20white%20marble%20workspace%20with%20a%20small%20white%20prescription%20vial%2C%20neatly%20stacked%20pharmacy%20packaging%20boxes%20with%20clean%20minimalist%20branding%2C%20a%20clipboard%20with%20a%20teal%20and%20white%20health%20form%20checklist%2C%20tiny%20green%20succulent%20plant%2C%20elegant%20gold%20pen%2C%20soft%20warm%20natural%20light%20streaming%20from%20a%20large%20window%20casting%20gentle%20shadows%2C%20premium%20product%20photography%2C%20no%20people%20no%20faces%20no%20hands%2C%20aspirational%20wellness%20aesthetic%2C%20vivid%20saturated%20teal%20and%20gold%20tones%2C%20high%20contrast%2C%20sharp%20details%2C%20professional%20commercial%20photography%2C%20inspiring%20and%20energetic%20mood%2C%20wide%20cinematic%20composition&width=1920&height=500&seq=hiw_hero_v4&orientation=landscape&format=webp&quality=80",
+      "local": "/images/how-it-works-01-clean-modern-telehealth-workspace-with-p.jpg"
+    },
+    {
+      "src": "https://public.readdy.ai/ai/img_res/721c21fc9079e5bbf72d133a99105e3a.jpg?format=webp",
+      "local": "/images/how-it-works-02-open-water-rx-program-cards-displayed-on.jpg"
+    },
+    {
+      "src": "https://readdy.ai/api/search-image?query=close%20up%20of%20person%20holding%20smartphone%20displaying%20a%20clean%20teal%20and%20white%20telehealth%20app%20homescreen%20branded%20Open%20Water%20Rx%2C%20modern%20health%20intake%20form%20on%20screen%2C%20warm%20natural%20light%2C%20minimal%20desk%20background%2C%20lifestyle%20photography%2C%20soft%20focus%2C%20professional%20and%20calm%20atmosphere%2C%20coastal%20vibes%2C%20teal%20color%20scheme%20matching%20brand%20identity&width=600&height=400&seq=hiw_step02_v2&orientation=landscape&format=webp&quality=80",
+      "local": "/images/how-it-works-03-patient-completing-a-secure-online-teleh.jpg"
+    },
+    {
+      "src": "https://readdy.ai/api/search-image?query=modern%20laptop%20screen%20displaying%20a%20secure%20patient%20portal%20dashboard%20with%20health%20evaluation%20summary%20and%20provider%20message%20thread%2C%20clean%20teal%20and%20white%20UI%20design%2C%20no%20people%20no%20faces%2C%20white%20minimalist%20desk%20with%20a%20small%20plant%20nearby%2C%20soft%20warm%20natural%20light%20from%20a%20window%2C%20calm%20professional%20telehealth%20workspace%2C%20privacy%20and%20security%20theme%2C%20medical%20technology%20aesthetic%2C%20subtle%20teal%20accent%20colors%20throughout%20the%20interface&width=600&height=400&seq=hiw_step03_v2&orientation=landscape&format=webp&quality=80",
+      "local": "/images/how-it-works-04-secure-patient-portal-dashboard-showing-.jpg"
+    },
+    {
+      "src": "https://readdy.ai/api/search-image?query=prescription%20medication%20in%20clean%20white%20packaging%2C%20modern%20pharmacy%20aesthetic%2C%20teal%20and%20white%20color%20scheme%2C%20professional%20medical%20product%20photography%2C%20minimal%20background%2C%20high%20quality%2C%20trustworthy&width=600&height=400&seq=hiw_step04_v2&orientation=landscape&format=webp&quality=80",
+      "local": "/images/how-it-works-05-compounded-prescription-medication-in-cl.jpg"
+    },
+    {
+      "src": "https://readdy.ai/api/search-image?query=clearly%20visible%20open%20cardboard%20shipping%20box%20with%20white%20interior%20tissue%20paper%20and%20a%20small%20medication%20vial%20inside%2C%20sitting%20on%20a%20bright%20sunny%20residential%20front%20porch%20with%20terracotta%20tiles%2C%20lush%20green%20plants%20visible%20in%20background%2C%20warm%20golden%20daylight%2C%20premium%20medical%20delivery%20unboxing%2C%20clean%20and%20elegant%20presentation%2C%20teal%20ribbon%20accent%2C%20top%20down%20angle%20showing%20box%20contents%20clearly&width=600&height=400&seq=hiw_step05_v2&orientation=landscape&format=webp&quality=80",
+      "local": "/images/how-it-works-06-open-shipping-box-with-medication-vial-o.jpg"
+    },
+    {
+      "src": "https://readdy.ai/api/search-image?query=person%20smiling%20looking%20at%20phone%20outdoors%2C%20healthy%20active%20woman%2C%20warm%20golden%20light%2C%20ocean%20in%20background%2C%20wellness%20and%20vitality%2C%20natural%20and%20authentic%2C%20lifestyle%20photography%2C%20coastal%20setting&width=600&height=400&seq=hiw_step06_v2&orientation=landscape&format=webp&quality=80",
+      "local": "/images/how-it-works-07-healthy-woman-smiling-outdoors-near-the-.jpg"
+    },
+    {
+      "src": "https://static.legitscript.com/seals/50088201.png",
+      "local": "/images/how-it-works-08-verify-approval-for-www-openwaterrx-com.png"
+    }
+  ],
+  "blocks": [
+    {
+      "idx": 0,
+      "tag": "header",
+      "heading": "",
+      "file": "blocks/block-00-header-x.html",
+      "htmlLen": 6420
+    },
+    {
+      "idx": 1,
+      "tag": "section",
+      "heading": "How Open Water RX Works",
+      "file": "blocks/block-01-section-how-open-water-rx-works.html",
+      "htmlLen": 3150
+    },
+    {
+      "idx": 2,
+      "tag": "section",
+      "heading": "Choose Your Care Path",
+      "file": "blocks/block-02-section-choose-your-care-path.html",
+      "htmlLen": 14160
+    },
+    {
+      "idx": 3,
+      "tag": "section",
+      "heading": "What’s Included in Every Program",
+      "file": "blocks/block-03-section-what-s-included-in-every-program.html",
+      "htmlLen": 6058
+    },
+    {
+      "idx": 4,
+      "tag": "section",
+      "heading": "Telehealth vs. Traditional Clinic",
+      "file": "blocks/block-04-section-telehealth-vs-traditional-clinic.html",
+      "htmlLen": 17842
+    },
+    {
+      "idx": 5,
+      "tag": "section",
+      "heading": "What Happens During Your Provider Review?",
+      "file": "blocks/block-05-section-what-happens-during-your-provider-review.html",
+      "htmlLen": 4213
+    },
+    {
+      "idx": 6,
+      "tag": "section",
+      "heading": "Real Providers. Real Pharmacies. Real Care.",
+      "file": "blocks/block-06-section-real-providers-real-pharmacies-real-care.html",
+      "htmlLen": 7296
+    },
+    {
+      "idx": 7,
+      "tag": "section",
+      "heading": "Common Questions About the Process",
+      "file": "blocks/block-07-section-common-questions-about-the-process.html",
+      "htmlLen": 19509
+    },
+    {
+      "idx": 8,
+      "tag": "section",
+      "heading": "Is the Open Water Rx Telehealth Process Right for You?",
+      "file": "blocks/block-08-section-is-the-open-water-rx-telehealth-process-.html",
+      "htmlLen": 4480
+    },
+    {
+      "idx": 9,
+      "tag": "section",
+      "heading": "Ready to Get Started?",
+      "file": "blocks/block-09-section-ready-to-get-started.html",
+      "htmlLen": 4338
+    },
+    {
+      "idx": 10,
+      "tag": "footer",
+      "heading": "",
+      "file": "blocks/block-10-footer-x.html",
+      "htmlLen": 24924
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Category,Section,Assets Present,Count,Copy Source,Status,Notes / Missing
+Peptide & Wellness,Hero,"Hero Updated, Hero A, (Hero ""use A"")",3,Embedded in mockup,OK,Pick final hero image (Hero A vs Updated). Need hero headline/subhead confirmed.
+Peptide & Wellness,Educational (Personalized Care),NONE,0,—,MISSING,Folder is EMPTY — need section image + copy.
+Peptide & Wellness,Products,"Section mockup + 6 lifestyle photos + 6 vials",13,Embedded in mockup,OK,"6 products: Methylene Blue, Glutathione, MIC B12, NAD+, Lipo C, Semorelin (Sermorelin?) — lifestyle + vial each."
+Peptide & Wellness,Comparison Chart,"V1, V2, V4, base",4,Embedded in mockup,OK,Pick final version (likely V4 ""Compare wellness therapies"").
+Peptide & Wellness,FAQ,"Questions, Questions & Answers mockups",2,Embedded in mockup,NEEDS COPY,No FAQ text doc — extract Q&A from mockup or provide text.
+Peptide & Wellness,CTA,Wellness CTA bottom mockup,1,Embedded in mockup,OK,
+Hair Restoration,Hero,"Hair Hero (ChatGPT), Final Couple Only",2,Embedded in mockup,OK,Pick final (likely ""Final Couple Only"").
+Hair Restoration,Educational (How It Works),How Hair Restoration Works mockup,1,Embedded in mockup,OK,
+Hair Restoration,Products,"Next gen advanced, Combo, Hair products, Topical, Oral tablets",5,Embedded in mockup,OK,
+Hair Restoration,Comparison,N/A,0,—,N/A,No comparison section for Hair.
+Hair Restoration,FAQ,"Common Questions, Q&A mockups",2,Embedded in mockup,NEEDS COPY,Extract Q&A from mockup or provide text.
+Hair Restoration,CTA,Hair bottom CTA mockup,1,Embedded in mockup,OK,
+Sexual Wellness,Hero,"Sexual Wellness Hero, Hero couple",2,Embedded in mockup,OK,Pick final.
+Sexual Wellness,Educational (Understanding),"Couple Bed B, Understanding sexual wellness",2,Embedded in mockup,OK,
+Sexual Wellness,Products,"double powered, Treatment Products, daily boost, quadruple, Go Long",5,Embedded in mockup,OK,
+Sexual Wellness,Getting Started,"Doctor Review, Filling Out Form, Discreet Meds, Getting Started",4,Embedded in mockup,OK,Multi-step ""Getting Started"" sequence.
+Sexual Wellness,FAQ,"Common Questions mockup + FAQ TEXT.docx",2,DOCX (text provided),OK,Only category with FAQ copy doc — good reference for template.
+Sexual Wellness,CTA,Bottom CTA mockup,1,Embedded in mockup,OK,Note: ""fix to look like Weight loss / Hair CTA"".
+Weight Loss,Hero,"Weight Loss hero, Woman B",2,Embedded in mockup,OK,Pick final.
+Weight Loss,Educational (How GLP-1s Work),How GLP-1's work mockup,1,Embedded in mockup,OK,
+Weight Loss,Products,"Popular Weight Loss Products + Semaglutide vial, Tirzepatide vial, Semaglutide tablets",4,Embedded in mockup,OK,
+Weight Loss,Comparison (WellPeps Difference),"Difference for Weight loss, Difference girl",2,Embedded in mockup,OK,
+Weight Loss,FAQ,Weight Loss Common Questions mockup,1,Embedded in mockup,NEEDS COPY,Extract Q&A from mockup or provide text.
+Weight Loss,CTA,"CTA bottom, CTA woman only",2,Embedded in mockup,OK,
+SHARED,Logos,"navy-on-transparent (x2), on-dark-blue, W-on-white + Navigation Logo Note.docx",5,—,OK,Confirm which variant for header (light) vs footer (dark).
+SHARED,Brand docs,"Design System, Color Guide, Fonts, Design Note",4,—,OK,Reviewed — see WELLPEPS_BRAND.md.
+SHARED,Design references,"Design Guidance V2 + Hims/Willow/Wellmedr PDFs",3,—,OK,Aesthetic inspiration.
+SHARED,Home Page,"21MB PPTX guide + 12 section subfolders",1,Mixed,SEPARATE BUILD,"Hero, Why WellPeps, Programs, Wellness Journey, FAQ, Footer, Transparency, Safety, Blog — larger build, do after category template."
+GLOBAL,OpenLoop CTA URLs,NONE,0,—,MISSING,Not in Drive — need the OpenLoop intake/login URL(s) so CTAs route correctly.

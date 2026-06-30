@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Regenerable QA / full-page screenshots (reproduce via scripts/extract.mjs + screenshot.mjs)
+docs/design-references/**/*-full-*.png
+docs/design-references/clone/
