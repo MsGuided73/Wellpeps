@@ -1,7 +1,7 @@
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-white to-[#F4F9FF]">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-28 md:pt-32 pb-16 md:pb-24">
+      <div className="max-w-7xl mx-auto px-6 md:px-10 pt-36 md:pt-44 pb-16 md:pb-24">
         <div className="grid items-center gap-10 md:gap-14 md:grid-cols-2">
           {/* Copy */}
           <div className="max-w-xl">
@@ -56,14 +56,13 @@ export function HeroSection() {
           {/* Image */}
           <div className="relative">
             <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-[#EAF5FF] to-[#2EA8F7]/20 blur-2xl" />
-            <div className="relative aspect-[4/5] sm:aspect-[5/4] md:aspect-[4/5] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-[#082B59]/15 ring-1 ring-[#082B59]/5">
-              {/* TODO: replace with WellPeps "Hero Couple Photo" from Drive */}
+            <div className="relative aspect-[4/3] md:aspect-[5/4] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-[#082B59]/15 ring-1 ring-[#082B59]/5">
               <img
-                src="/images/how-it-works-07-healthy-woman-smiling-outdoors-near-the-.jpg"
-                alt="A WellPeps patient living well after personalized telehealth care"
-                className="w-full h-full object-cover"
-                width={1000}
-                height={1250}
+                src="/images/wellpeps-hero-couple.webp"
+                alt="A couple living well with personalized care from WellPeps"
+                className="w-full h-full object-cover object-center"
+                width={1200}
+                height={800}
                 loading="eager"
                 fetchPriority="high"
                 decoding="async"
