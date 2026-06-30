@@ -6,7 +6,7 @@ export function CarePathSection() {
           <div className="w-full lg:w-1/2">
             <div className="relative rounded-3xl overflow-hidden" style={{ minHeight: "18rem" }}>
               <img
-                alt="WellPeps program cards displayed on screen — choose weight loss, energy & longevity, men's health, or wellness optimization"
+                alt="WellPeps program cards displayed on screen — choose weight loss, peptide & wellness therapy, hair restoration, or sexual wellness"
                 className="w-full h-72 md:h-80 object-cover object-top"
                 loading="lazy"
                 decoding="async"
@@ -24,7 +24,7 @@ export function CarePathSection() {
             </div>
             <p className="text-[#1565C0] text-xs font-semibold uppercase tracking-widest mb-2">Find the program that fits your goal.</p>
             <h2 className="text-3xl font-bold text-[#1565C0] mb-4 leading-snug" style={{ fontFamily: '"Playfair Display", serif' }}>Choose Your Care Path</h2>
-            <p className="text-gray-600 text-base leading-relaxed mb-5">Start by selecting the care path that matches what you want to improve. WellPeps offers programs for weight loss, energy &amp; longevity, men's health / sexual health, and wellness optimization. Each path is supported by licensed providers who review your case individually. Not sure which path is right? Use the program finder to compare options and choose the best starting point. No commitment — you are only charged if treatment is prescribed.</p>
+            <p className="text-gray-600 text-base leading-relaxed mb-5">Start by selecting the care path that matches what you want to improve. WellPeps offers programs for weight loss, peptide &amp; wellness therapy, hair restoration, and sexual wellness. Each path is supported by licensed providers who review your case individually. Not sure which path is right? Use the program finder to compare options and choose the best starting point. No commitment — you are only charged if treatment is prescribed.</p>
             <div className="flex items-start gap-3 bg-[#EAF5FF] rounded-xl p-4 mb-1">
               <i className="ri-information-line text-[#1565C0] text-lg flex-shrink-0 mt-0.5"></i>
               <p className="text-sm text-[#1565C0] leading-relaxed">Every program follows the same clinically sound process. The intake questions, provider review, and follow-up cadence are tailored to each care path.</p>
@@ -54,7 +54,7 @@ export function CarePathSection() {
             </div>
             <p className="text-[#1565C0] text-xs font-semibold uppercase tracking-widest mb-2">5 minutes. No appointment needed.</p>
             <h2 className="text-3xl font-bold text-[#1565C0] mb-4 leading-snug" style={{ fontFamily: '"Playfair Display", serif' }}>Complete Your Online Intake</h2>
-            <p className="text-gray-600 text-base leading-relaxed mb-5">Once you have chosen your care path, answer a brief set of health questions through our secure online platform. The intake covers your medical history, current medications, goals, and lifestyle — tailored to the program you selected, whether that is weight loss, energy &amp; longevity, men's health, or wellness optimization. It is a clinically designed form reviewed by an independent licensed medical provider, not a generic quiz or algorithm. Everything is encrypted and handled in accordance with HIPAA privacy standards.</p>
+            <p className="text-gray-600 text-base leading-relaxed mb-5">Once you have chosen your care path, answer a brief set of health questions through our secure online platform. The intake covers your medical history, current medications, goals, and lifestyle — tailored to the program you selected, whether that is weight loss, peptide &amp; wellness therapy, hair restoration, or sexual wellness. It is a clinically designed form reviewed by an independent licensed medical provider, not a generic quiz or algorithm. Everything is encrypted and handled in accordance with HIPAA privacy standards.</p>
             <div className="flex items-start gap-3 bg-[#EAF5FF] rounded-xl p-4 mb-1">
               <i className="ri-information-line text-[#1565C0] text-lg flex-shrink-0 mt-0.5"></i>
               <p className="text-sm text-[#1565C0] leading-relaxed">Available 24/7 from any device. Some states require a synchronous (live video) initial visit with your licensed medical provider before a prescription can be issued.</p>

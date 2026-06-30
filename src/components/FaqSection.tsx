@@ -36,7 +36,7 @@ const FAQ_ITEMS: FaqItem[] = [
   {
     question: "What programs does WellPeps offer?",
     answer:
-      "WellPeps offers clinician-guided programs in weight loss (including semaglutide and tirzepatide), energy & longevity (NAD+ and peptide therapies), men's health / sexual health (ED treatment), and wellness optimization. Each program is reviewed by an independent licensed medical provider who determines clinical appropriateness on an individual basis. Not all programs are available in every state.",
+      "WellPeps offers clinician-guided programs across four core categories: Weight Loss (including semaglutide and tirzepatide GLP-1 programs), Peptide & Wellness Therapy (such as Sermorelin, NAD+, Glutathione, MIC/B12, Lipo-C, and methylene blue), Hair Restoration (oral and topical regimens), and Sexual Wellness (ED and intimacy support). Each program is reviewed by an independent licensed medical provider who determines clinical appropriateness on an individual basis. Not all programs are available in every state.",
   },
   {
     question: "What is the difference between semaglutide and tirzepatide?",
@@ -93,7 +93,7 @@ export function FaqSection() {
   };
 
   return (
-    <section className="py-20 px-6 md:px-10 bg-white border-t border-gray-100 cv-auto">
+    <section id="faq" className="scroll-mt-28 py-20 px-6 md:px-10 bg-white border-t border-gray-100 cv-auto">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-[#1565C0] text-xs font-semibold uppercase tracking-widest mb-3">

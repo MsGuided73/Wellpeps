@@ -82,7 +82,7 @@ export function Header() {
           </a>
           <a
             className="text-sm font-medium transition-colors duration-200 whitespace-nowrap active:opacity-80 text-gray-600 hover:text-[#1565C0]"
-            href="/faq"
+            href="#faq"
           >
             FAQ
           </a>
@@ -154,7 +154,7 @@ export function Header() {
           </a>
           <a
             className="text-sm font-medium w-full min-h-[48px] flex items-center py-3 transition-colors active:bg-gray-50 touch-manipulation cursor-pointer text-gray-700 border-b border-gray-100"
-            href="/faq"
+            href="#faq"
           >
             FAQ
           </a>
